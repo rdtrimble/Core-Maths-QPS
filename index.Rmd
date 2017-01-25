@@ -1,17 +1,17 @@
 --- 
-title: "A Minimal Bookdown Book"
-author: "Sean Kross"
+title: "Introduction to Quantitative Problem Solving"
+author: "Richard Trimble"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: seankross/bookdown-start
-url: 'http\://seankross.com/bookdown-start/'
-description: "Everything you need (and nothing more) to start a bookdown book."
+github-repo: rdtrimble/Core-Maths-QPS
+url: 'http\://tbc.com/Core-Maths-QPS/'
+description: "Introduction to Quantitative Problem Solving gives the student everything they need to learn, understand and apply quantitative methods in OCR/MEI's Level 3 Certificate 'Introduction to Quantitative Problem Solving'. Both papers 'Introduction to Quantitative Reasoning' and 'Statisitcal Problem Solving' are covered."
 ---
 
 # Preface {-}
 
-This is the very first part of the book.
+Introduction to Quantitative Problem Solving gives the student everything they need to learn, understand and apply quantitative methods in OCR/MEI's Level 3 Certificate 'Introduction to Quantitative Problem Solving'. Both papers 'Introduction to Quantitative Reasoning' and 'Statisitcal Problem Solving' are covered.
