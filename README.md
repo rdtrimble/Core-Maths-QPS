@@ -1,4 +1,4 @@
-#Introduction to Quantia=tative Problem Solving
+#Introduction to Quantitative Problem Solving
 
 A sourcebook and guide
 
