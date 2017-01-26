@@ -10,4 +10,4 @@ git config --global user.name "Richard Trimble"
 cd ./docs
 git add .
 git commit -m 'update docs' || true
-git push -q https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git master
+git push https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git master
