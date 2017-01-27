@@ -9,7 +9,7 @@ git config --global user.name "Richard Trimble"
 git status
 cd ./docs
 git add .
-git commit -m 'update docs' || true
+
 git status
 git stash
 git checkout master   # Fix the detached head state
@@ -17,5 +17,6 @@ git checkout master   # Fix the detached head state
                       # after fixing everything do 'stash drop'
                       
 git stash apply
+git commit -m 'update docs' || true
 git status
 git push https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git master
