@@ -10,4 +10,9 @@ git config --global user.name "Richard Trimble"
 cd ./docs
 git add .
 git commit -m 'update docs' || true
+
+git stash
+git checkout master   # Fix the detached head state
+git stash pop         # ... or for extra safety use 'stash apply' then later 
+                      # after fixing everything do 'stash drop'
 git push https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git master
