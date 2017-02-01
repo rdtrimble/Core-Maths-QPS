@@ -17,7 +17,7 @@ git checkout master   # Fix the detached head state
                       # after fixing everything do 'stash drop'
                       
 git stash apply
-cd ./docs
+git status
 git add .
 git commit -m 'update docs' || true
 git status
