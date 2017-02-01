@@ -17,6 +17,8 @@ git checkout master   # Fix the detached head state
                       # after fixing everything do 'stash drop'
                       
 git stash apply
+cd ./docs
+git add .
 git commit -m 'update docs' || true
 git status
 git push https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git master
