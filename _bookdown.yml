@@ -5,3 +5,4 @@ output_dir: docs
 rmd_files: ["index.Rmd", "01-Introduction.Rmd", "02-Use-of-Technology.Rmd", "03-Modelling.Rmd", "04-Statistics.Rmd", "05-Finance.Rmd", "06-Working-with-Exponentials.Rmd", "07-Working-with-Graphs-and-Gradients.Rmd", "08-Risk.Rmd", "09-Problem-Analysis.Rmd", "10-Process-and-Presentation.Rmd", "11-Reporting-and-Interpretation.Rmd"]
 clean: [packages.bib, bookdown.bbl]
 new_session: yes
+
