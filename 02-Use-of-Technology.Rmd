@@ -6,6 +6,7 @@
 
 Key Skills:
 
+- q1 Be able to use a standard calculator (scientific or graphical). 
 - q2 Be able to read information from a standard spreadsheet.
 - q3 Be able to enter formulae and data into a spreadsheet, knowing that a standard spreadsheet formula starts with "=".
 - q4 Be able to interpret simple formulae on a spreadsheet given in terms of cell references.
