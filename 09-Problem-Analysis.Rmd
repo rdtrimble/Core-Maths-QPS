@@ -1,4 +1,4 @@
-# (PART) Statistical Problem Solving
+# (PART) Statistical Problem Solving {-}
 
 # Problem Analysis
 
