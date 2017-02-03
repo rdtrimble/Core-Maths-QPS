@@ -1,0 +1,20 @@
+# Working with Exponentials
+
+## Standard Form
+
+Key Skills:
+- i1 Be able to interpret large or small numbers in standard form, including the use of a spreadsheet or calculator.
+- i2 Be able to calculate with numbers in standard form.
+
+## Exponentials
+
+Key Skills:
+- i3 Be able to explore exponential growth anddecay, including interpreting output from a spreadsheet.
+- i4 Be able to represent and interpret exponential growth or decay in a graph.
+- i5 Be able to solve equations of the forms x^5 = 35 and 1.05^x = 8.2.
+
+
+## Logarithmic scales
+
+Key Skills:
+- i6 Be able to use and interpret a logarithmic scale on a graph.

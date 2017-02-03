@@ -1,4 +1,4 @@
-# Introduction
+# Introduction {-}
 
 I hope that as you work throught his book you will gain several things:
 
