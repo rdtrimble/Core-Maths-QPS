@@ -19,7 +19,8 @@ Key Skills:
 - s9 Be able to interpret sample data in terms of possible properties of the parent population.
 - s10 Understand about the variability of data and be able to describe the main features of a distribution.
 - s11 Be able to use and interpret statistical diagrams appropriate to a variety of types of data.
-  
+
+
 ## Statistical diagrams and measures
 
 Key Skills:
