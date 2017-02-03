@@ -11,6 +11,7 @@ Key Skills:
 ## Checking
 
 Key Skills:
+
 - s25 Recognise when the proposed solution is unreasonable.
 - s26 Be able to identify and comment on possible sources of bias or error which may have affected the solution to a problem.
 
@@ -18,6 +19,7 @@ Key Skills:
 ## Evaluation
 
 Key Skills:
+
 - s27 Recognise when the approach taken needs to be refined or replaced.
 - s28 Be able to propose a refined or new approach.
 - s29 Recognise that a “good enough” solution to a problem can save time and money compared to a more accurate solution.
@@ -27,4 +29,5 @@ Key Skills:
 ## Communication
 
 Key Skills:
+
 - s31 Be able to communicate the solution to someone who understands the problem.

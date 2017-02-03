@@ -3,6 +3,7 @@
 ## Graphs
 
 Key Skills:
+
 - g1 Know that the independent variable is plotted on the horizontal axis of a graph.
 - g2 Be able to construct a table of values for a graph from a simple formula and use it to plot the graph.
 - g3 Be able to use a graph to construct a table of values.
@@ -14,5 +15,6 @@ Key Skills:
 ## Gradients
 
 Key Skills:
+
 - g8 Be able to find the gradient of a straight line graph and interpret it in context, taking account of the scales on the axes and using appropriate units.
 - g9 Be able to estimate the gradient of a curve at a point by drawing a tangent and interpret it as a rate of change.

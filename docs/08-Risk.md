@@ -3,6 +3,7 @@
 ## Probability
 
 Key Skills:
+
 - u1 Be able to identify relevant equally likely outcomes in appropriate contexts.
 - u2 Be able to count equally likely outcomes in appropriate contexts and hence estimate a probability.
 - u3 Be able to estimate probability from long-run relative frequency.
@@ -13,5 +14,6 @@ Key Skills:
 ## Risk
 
 Key Skills:
+
 - u7 Understand risk given as a probability or as 1 in n or as a description such as “once in n years”.
 - u8 Be able to interpret a risk assessment, understanding that it involves measures of both likelihood and impact.

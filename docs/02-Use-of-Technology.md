@@ -1,4 +1,4 @@
-# (PART) Introduction to Quantitative Reasoning
+# (PART) Introduction to Quantitative Reasoning {-}
 
 # Use of Technology
 
