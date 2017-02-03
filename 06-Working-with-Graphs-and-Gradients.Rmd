@@ -1,0 +1,7 @@
+# Working with Graphs and Gradients
+
+## Standard Form
+
+## Exponentials
+
+## Logarithmic scales
