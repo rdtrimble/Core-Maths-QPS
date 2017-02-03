@@ -3,6 +3,7 @@
 ## The modelling cycle
 
 Key Skills:
+
 - p1 Be able to identify simplifying assumptions that allow a situation to be modelled.
 - p2 Be able to develop or choose a simple mathematical model for a real-world situation.
 - p3 Be able to use a model to make predictions or get information about a situation.
@@ -14,6 +15,7 @@ Key Skills:
 ## Estimation
 
 Key Skills:
+
 - e1 Be able to make a rough estimate of a quantity from available information.
 - e2 Be able to use estimates when checking calculations.
 - e3 Be able to make and justify upper and lower bounds for a calculation.
@@ -22,6 +24,7 @@ Key Skills:
 ## Algebra
 
 Key Skills:
+
 - a1 Be able to represent a situation mathematically using a formula or equation.
 - a2 Be able to substitute values into a formula given in symbols, words or as a flow chart.
 - a3 Be able to solve equations and change the subject of a formula.
@@ -29,6 +32,7 @@ Key Skills:
 ## Geometry and Measures
 
 Key Skills:
+
 - m1 Be able to recognise and use relationships between lengths, areas, weights and volumes of similar figures to model real-world situations.
 - m2 Be able to work with time, length, area and volume to meet given regulations
 - m3 Be able to work with commonly used units and know that quantities being compared should have the same units; this includes compound units.
@@ -39,4 +43,5 @@ Key Skills:
 ## Number
 
 Key Skills:
+
 - n1 Be able to use ratio and proportionality in realistic contexts
