@@ -25,5 +25,5 @@ The simple genius of the spreadsheet is that it is a giant grid into which you c
 You refer to the grid by cell references. These consist of a letter and a number, the letter tells you which column you want and the number which row. For example: the highlighted cell in \@ref(fig:sample-spreadsheet) is cell "C3".
 
 ```{r sample-spreadsheet, echo = FALSE, fig.cap = 'A Sample Spreadsheet.'}
-knitr::include_graphics(".\images\01-01-spreadsheet.png")
+knitr::include_graphics(".\images\02-01-spreadsheet.png")
 ```
