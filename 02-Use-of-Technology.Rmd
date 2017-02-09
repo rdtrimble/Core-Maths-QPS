@@ -13,3 +13,17 @@ Key Skills:
 - q5 Be able to copy a formula and to ensure that only the required cell addresses increment.
 - q6 Be able to use a spreadsheet to find a numerical solution of an equation.
 - q7 Be able to use a spreadsheet to draw graphs and standard statistical diagrams and interpret graphs produced on spreadsheets.
+
+This chapter is designed to be  aready reference of the various calculator/spreadsheet tools you may need throughout the course. Feel free to skip it unless you love spreadsheets as much as I do!
+
+### Basic Orientation
+
+Common spreadsheet programs are [Microsoft Excel](https://office.live.com/start/Excel.aspx), [Apache Open Office Calc](https://www.openoffice.org/) and [Google Sheets](https://www.google.com/sheets/about/). They all use the same basic concepts and have the same or very similar ways of working. You are free to use any spreadsheet software you like.
+
+The simple genius of the spreadsheet is that it is a giant grid into which you can put information, this might be labels, numbers, percentages, financial data or any other type of data you can think of. Sounds boring but once your data is in that grid you can then get the computer to do the analysis and calculations you want it to. If your data changes you just change the cell and all the other cells that depend on it update automatically. Spreadsheets were initially developed for the commercial world [(e.g. VisiCalc developed by Dan Bricklin and Bob Frankston whilst at Harvard Business School in 1978)](http://news.harvard.edu/gazette/story/2012/03/a-vision-of-the-computing-future/), today they find use in a wide variety of business and technical applications - being able to use them is essential.
+
+You refer to the grid by cell references. These consist of a letter and a number, the letter tells you which column you want and the number which row. For example: the highlighted cell in \@ref(fig:sample-spreadsheet) is cell "C3".
+
+```{r sample-spreadsheet, echo = FALSE, fig.cap = 'A Sample Spreadsheet.'}
+knitr::include_graphics(".\images\01-01-spreadsheet.png")
+```
