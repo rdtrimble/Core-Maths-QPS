@@ -60,7 +60,7 @@ The four basic operations are:
 - `*` for multiplication,
 - `/` for division.
 
-So to calculate $5+3$ I enter `=5+3`. Notice how every formula begins with the `=` sign, that is really important and a common mistake in exams. For $7-4$ I enter `=7-4`. For $3\times5$ I enter `=3*5` and for $56 \divide 8$ I enter `=56/8`.
+So to calculate $5+3$ I enter `=5+3`. Notice how every formula begins with the `=` sign, that is really important and a common mistake in exams. For $7-4$ I enter `=7-4`. For $3\times5$ I enter `=3*5` and for $56 \div 8$ I enter `=56/8`.
 
 More complicated calculations can be entered using brackets under the usual rules of the order of operations.
 
@@ -87,3 +87,31 @@ On your calculator you have  a dedicated nth root button but in a spreadsheet yo
 $$\sqrt[n]{x}=x^{\frac{1}{n}}$$.
 
 So to calculate $\sqrt[15]{2}$ I enter `=2^(1/15)`. Notice that the portion after the `^` is "one over" the root I wish to find and that it is in brackets, the brackets are *essential* to make this work.
+
+#### Summary Functions and Ranges
+
+These functions are especially useful when dealing with large data sets and rely on being able to refer to a large range of cells.
+
+`SUM()` will add up all the numbers in a given range. For example if I wanted to add up all the total costs in the spreadsheet shown in \@ref(fig:sample-spreadsheet) I could enter `=D2+D3+D4+D5` into cell `D6`. Whilst this might work fine for a small number of cells what if I want to add up hundereds or even thousands of cells?
+
+Well `SUM()` comes to the rescue, you can tell `SUM()` to add up everything from cell `D2` down to `D5` by entering `=SUM(D2:D5)`. Notice the colon `:` between `D2` and `D5`, this is what tells the spreadsheet software the *range* of values you want to add up.
+
+Your *range* can carry over across columns as well for example `=SUM(D2:E5)` would add up all the values in `D2`,`D3`,`D4`,`D5` and `E2`,`E3`,`E4`,`E5`.
+
+`AVERAGE()` will calculate the *mean* average of all the numbers in the range given e.g. `=AVERAGE(D2:D5)` would calculate the *mean* average of all the numbers in cells `D2` to `D5`.
+
+`STDEV()` will calculate the *sample* standard deviation of a range of values.
+
+`MEDIAN()` will calculate the *median* average of the values in the range.
+
+`QUARTILE()` is a more complicated function that requires two arguments to work. It is designed to return any of the five number summary given by *minimum*, *lower quartile*, *median*, *upper quartile* and *maximum*.
+
+| statistic        | function                                |
+|------------------|-----------------------------------------|
+|minimum           |`=QUARTILE(D2:D5, 0)` or `=MIN(D2:D5)`   |
+|lower quartile    |`=QUARTILE(D2:D5, 1)`                    |
+|median            |`=QUARTILE(D2:D5, 2)` or `=MEDIAN(D2:D5)`|
+|upper quatile     |`=QUARTILE(D2:D5, 3)`                    |
+|maximum           |`=QUARTILE(D2:D5, 4)` or `=MAX(D2:D5)`   |
+
+It is important to remember whe using the `QUARTILE()` that the second argument (the bit after the comma) starts at `0`!
