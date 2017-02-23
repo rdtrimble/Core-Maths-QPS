@@ -60,7 +60,7 @@ The four basic operations are:
 - `*` for multiplication,
 - `/` for division.
 
-So to calculate $5+3$ I enter `=5+3`. Notice how every formula begins with the `=` sign, that is really important and a common mistake in exams. For $7-4$ I enter `=7-4`. For $3\times5$ I enter `=3*5` and for $56 \divide 8% I enter `=56/8`.
+So to calculate $5+3$ I enter `=5+3`. Notice how every formula begins with the `=` sign, that is really important and a common mistake in exams. For $7-4$ I enter `=7-4`. For $3\times5$ I enter `=3*5` and for $56 \divide 8$ I enter `=56/8`.
 
 More complicated calculations can be entered using brackets under the usual rules of the order of operations.
 
