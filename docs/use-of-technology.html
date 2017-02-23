@@ -25,7 +25,7 @@
 <meta name="author" content="Richard Trimble">
 
 
-<meta name="date" content="2017-02-11">
+<meta name="date" content="2017-02-23">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -75,6 +75,8 @@
 <li class="chapter" data-level="1" data-path="use-of-technology.html"><a href="use-of-technology.html"><i class="fa fa-check"></i><b>1</b> Use of Technology</a><ul>
 <li class="chapter" data-level="1.1" data-path="use-of-technology.html"><a href="use-of-technology.html#spreadsheets"><i class="fa fa-check"></i><b>1.1</b> Spreadsheets</a><ul>
 <li class="chapter" data-level="1.1.1" data-path="use-of-technology.html"><a href="use-of-technology.html#basic-orientation"><i class="fa fa-check"></i><b>1.1.1</b> Basic Orientation</a></li>
+<li class="chapter" data-level="1.1.2" data-path="use-of-technology.html"><a href="use-of-technology.html#auto-filling-formulae"><i class="fa fa-check"></i><b>1.1.2</b> Auto Filling Formulae</a></li>
+<li class="chapter" data-level="1.1.3" data-path="use-of-technology.html"><a href="use-of-technology.html#operations-and-simple-functions"><i class="fa fa-check"></i><b>1.1.3</b> Operations and Simple Functions</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="modelling.html"><a href="modelling.html"><i class="fa fa-check"></i><b>2</b> Modelling</a><ul>
@@ -173,15 +175,63 @@
 <h3><span class="header-section-number">1.1.1</span> Basic Orientation</h3>
 <p>Common spreadsheet programs are <a href="https://office.live.com/start/Excel.aspx">Microsoft Excel</a>, <a href="https://www.openoffice.org/">Apache Open Office Calc</a> and <a href="https://www.google.com/sheets/about/">Google Sheets</a>. They all use the same basic concepts and have the same or very similar ways of working. You are free to use any spreadsheet software you like.</p>
 <p>The simple genius of the spreadsheet is that it is a giant grid into which you can put information, this might be labels, numbers, percentages, financial data or any other type of data you can think of. Sounds boring but once your data is in that grid you can then get the computer to do the analysis and calculations you want it to. If your data changes you just change the cell and all the other cells that depend on it update automatically. Spreadsheets were initially developed for the commercial world <a href="http://news.harvard.edu/gazette/story/2012/03/a-vision-of-the-computing-future/">(e.g. VisiCalc developed by Dan Bricklin and Bob Frankston whilst at Harvard Business School in 1978)</a>, today they find use in a wide variety of business and technical applications - being able to use them is essential.</p>
-<p>You refer to the grid by cell references. These consist of a letter and a number, the letter tells you which column you want and the number which row. For example: the highlighted cell in <a href="use-of-technology.html#fig:sample-spreadsheet">1.1</a> is cell “C3”. Once numbers are in cells you can start playing with them! That lovely total cost of 15 Buzz Cuts in cell D3 is calculated with a formula that multiplies 15 by £6.75. The formula is “=B3*C3“.</p>
-<p>Why use a formula when you could just work out the values on a calculator and type them in? Or why use cell references when you could just type in “=15*6.75“? Using the formula presents two massive advantages, the first one is that if, say, the price of a Buzz Cut changes next month or we manage to sell more than 15 of them it is really easy just to change the values in the cells B3 or C3 and the calculated value in D3 will automatically update itself! The second is that if we are careful we only have to type a formula in once and our spreadsheet can work out how to apply it to a range of cells.</p>
+<p>You refer to the grid by cell references. These consist of a letter and a number, the letter tells you which column you want and the number which row. For example: the highlighted cell in <a href="use-of-technology.html#fig:sample-spreadsheet">1.1</a> is cell <code>C3</code>. Once numbers are in cells you can start playing with them! That lovely total cost of 15 Buzz Cuts in cell <code>D3</code> is calculated with a formula that multiplies 15 by £6.75. The formula is <code>=B3*C3</code>.</p>
+<p>Why use a formula when you could just work out the values on a calculator and type them in? Or why use cell references when you could just type in <code>=15*6.75</code>? Using the formula presents two massive advantages, the first one is that if, say, the price of a Buzz Cut changes next month or we manage to sell more than 15 of them it is really easy just to change the values in the cells <code>B3</code> or <code>C3</code> and the calculated value in <code>D3</code> will automatically update itself! The second is that if we are careful we only have to type a formula in once and our spreadsheet can work out how to apply it to a range of cells.</p>
 <div class="figure"><span id="fig:sample-spreadsheet"></span>
 <img src="images/02-01-spreadsheet.png" alt="A Sample Spreadsheet."  />
 <p class="caption">
 Figure 1.1: A Sample Spreadsheet.
 </p>
 </div>
+</div>
+<div id="auto-filling-formulae" class="section level3">
+<h3><span class="header-section-number">1.1.2</span> Auto Filling Formulae</h3>
+<p>An experienced spreadsheet user will only type in a formula once and then use the auto fill feature to create similar formulae in other cells. For example say we had entered <code>=B3*C3</code> in cell <code>D3</code> as above. We did this to multiply the number sold by the unit price. We can now “translate” that formula down to a lower cell, we don’t want an exact copy but we do want a formula to calculate the product of the two numbers immediately to the left.</p>
+<p>The steps to acheiving this are:</p>
+<ul>
+<li>select the cell you want to translate,</li>
+<li>hover the mouse over the bottom right hand corner until it changes,</li>
+<li>left click the mouse and drag the formula either up or down as needed,</li>
+<li><em>Voila</em>! Your your formula has been adapted and copied down automatically.</li>
+</ul>
+<p>See if you can create a similar spreadsheet and auto fill the product formula yourself.</p>
+<div class="figure"><span id="fig:autofill"></span>
+<img src="./images/02-02-spreadsheet.png" alt="How to Auto Fill a Formula."  />
+<p class="caption">
+Figure 1.2: How to Auto Fill a Formula.
+</p>
+</div>
+</div>
+<div id="operations-and-simple-functions" class="section level3">
+<h3><span class="header-section-number">1.1.3</span> Operations and Simple Functions</h3>
+<p>The number of spreadsheet functions that you are expected to know are quite small. In this chapter we will cover all of the functions that you <em>must</em> know according to the syllabus as well as a few other functions that you may find useful.</p>
+<div id="the-four-operations" class="section level4">
+<h4><span class="header-section-number">1.1.3.1</span> The four operations</h4>
+<p>The four basic operations are:</p>
+<ul>
+<li><code>+</code> for addition,</li>
+<li><code>-</code> for subtraction,</li>
+<li><code>*</code> for multiplication,</li>
+<li><code>/</code> for division.</li>
+</ul>
+<p>So to calculate <span class="math inline">\(5+3\)</span> I enter <code>=5+3</code>. Notice how every formula begins with the <code>=</code> sign, that is really important and a common mistake in exams. For <span class="math inline">\(7-4\)</span> I enter <code>=7-4</code>. For <span class="math inline">\(3\times5\)</span> I enter <code>=3*5</code> and for $56 8% I enter <code>=56/8</code>.</p>
+<p>More complicated calculations can be entered using brackets under the usual rules of the order of operations.</p>
+<p>So I can calculate:</p>
+<p><span class="math display">\[\frac{5\times7 + 3 \times (7-2)}{(8+6)\times5}\]</span></p>
+<p>by entering:</p>
+<p><code>=(5*7+3*(7-2))/((8+6)*5)</code>.</p>
+<p>It might look a little intimidating at first especially if you replace those numbers with cell references, just remember that if you need to you can calculate different parts of your expression in different cells and then bring them all together at the end. For example I could put <code>=(5*7+3*(7-2))</code> in cell <code>A1</code> and then <code>=((8+6)*5)</code> in cell <code>A2</code> and finally enter <code>=A1/A2</code> in cell <code>A3</code> for my final answer.</p>
+</div>
+<div id="powers-and-roots" class="section level4">
+<h4><span class="header-section-number">1.1.3.2</span> Powers and roots</h4>
+<p>If I want to raise one number to the power of another I use the <code>^</code> operator. The number on the left is the base and the number on the right is the power. So I can calculate <span class="math inline">\(5^3\)</span> by entering <code>=5^3</code> instead of the more cumbersome but equivalent <code>=5*5*5</code>.</p>
+<p>Spreadsheets provides a function for square rooting called <code>SQRT()</code>. To calculate <span class="math inline">\(\sqrt{64}\)</span> simply enter <code>=SQRT(64)</code>. If I need to work out the square root of a number in cell <code>A3</code> I would type in <code>=SQRT(A3)</code>.</p>
+<p>Often in financial maths we will need to take what is called the “nth root” and most spreadsheets don’t have a dedicated function for acheiving this.Lets say I wanted to take the 15th root of the number 2 (something I might do if I wanted to calculate the average annual percentage increase over 15 years that results in doubling my money).</p>
+<p>On your calculator you have a dedicated nth root button but in a spreadsheet you need to use the fact that</p>
+<p><span class="math display">\[\sqrt[n]{x}=x^{\frac{1}{n}}\]</span>.</p>
+<p>So to calculate <span class="math inline">\(\sqrt[15]{2}\)</span> I enter <code>=2^(1/15)</code>. Notice that the portion after the <code>^</code> is “one over” the root I wish to find and that it is in brackets, the brackets are <em>essential</em> to make this work.</p>
 
+</div>
 </div>
 </div>
 </div>
@@ -231,6 +281,17 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    if (location.protocol !== "file:" && /^https?:/.test(script.src))
+      script.src  = script.src.replace(/^https?:/, '');
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>
