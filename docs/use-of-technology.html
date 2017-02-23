@@ -214,7 +214,7 @@ Figure 1.2: How to Auto Fill a Formula.
 <li><code>*</code> for multiplication,</li>
 <li><code>/</code> for division.</li>
 </ul>
-<p>So to calculate <span class="math inline">\(5+3\)</span> I enter <code>=5+3</code>. Notice how every formula begins with the <code>=</code> sign, that is really important and a common mistake in exams. For <span class="math inline">\(7-4\)</span> I enter <code>=7-4</code>. For <span class="math inline">\(3\times5\)</span> I enter <code>=3*5</code> and for <span class="math inline">\(56 \divide 8\)</span> I enter <code>=56/8</code>.</p>
+<p>So to calculate <span class="math inline">\(5+3\)</span> I enter <code>=5+3</code>. Notice how every formula begins with the <code>=</code> sign, that is really important and a common mistake in exams. For <span class="math inline">\(7-4\)</span> I enter <code>=7-4</code>. For <span class="math inline">\(3\times5\)</span> I enter <code>=3*5</code> and for <span class="math inline">\(56 \div 8\)</span> I enter <code>=56/8</code>.</p>
 <p>More complicated calculations can be entered using brackets under the usual rules of the order of operations.</p>
 <p>So I can calculate:</p>
 <p><span class="math display">\[\frac{5\times7 + 3 \times (7-2)}{(8+6)\times5}\]</span></p>
@@ -230,6 +230,48 @@ Figure 1.2: How to Auto Fill a Formula.
 <p>On your calculator you have a dedicated nth root button but in a spreadsheet you need to use the fact that</p>
 <p><span class="math display">\[\sqrt[n]{x}=x^{\frac{1}{n}}\]</span>.</p>
 <p>So to calculate <span class="math inline">\(\sqrt[15]{2}\)</span> I enter <code>=2^(1/15)</code>. Notice that the portion after the <code>^</code> is “one over” the root I wish to find and that it is in brackets, the brackets are <em>essential</em> to make this work.</p>
+</div>
+<div id="summary-functions-and-ranges" class="section level4">
+<h4><span class="header-section-number">1.1.3.3</span> Summary Functions and Ranges</h4>
+<p>These functions are especially useful when dealing with large data sets and rely on being able to refer to a large range of cells.</p>
+<p><code>SUM()</code> will add up all the numbers in a given range. For example if I wanted to add up all the total costs in the spreadsheet shown in <a href="use-of-technology.html#fig:sample-spreadsheet">1.1</a> I could enter <code>=D2+D3+D4+D5</code> into cell <code>D6</code>. Whilst this might work fine for a small number of cells what if I want to add up hundereds or even thousands of cells?</p>
+<p>Well <code>SUM()</code> comes to the rescue, you can tell <code>SUM()</code> to add up everything from cell <code>D2</code> down to <code>D5</code> by entering <code>=SUM(D2:D5)</code>. Notice the colon <code>:</code> between <code>D2</code> and <code>D5</code>, this is what tells the spreadsheet software the <em>range</em> of values you want to add up.</p>
+<p>Your <em>range</em> can carry over across columns as well for example <code>=SUM(D2:E5)</code> would add up all the values in <code>D2</code>,<code>D3</code>,<code>D4</code>,<code>D5</code> and <code>E2</code>,<code>E3</code>,<code>E4</code>,<code>E5</code>.</p>
+<p><code>AVERAGE()</code> will calculate the <em>mean</em> average of all the numbers in the range given e.g. <code>=AVERAGE(D2:D5)</code> would calculate the <em>mean</em> average of all the numbers in cells <code>D2</code> to <code>D5</code>.</p>
+<p><code>STDEV()</code> will calculate the <em>sample</em> standard deviation of a range of values.</p>
+<p><code>MEDIAN()</code> will calculate the <em>median</em> average of the values in the range.</p>
+<p><code>QUARTILE()</code> is a more complicated function that requires two arguments to work. It is designed to return any of the five number summary given by <em>minimum</em>, <em>lower quartile</em>, <em>median</em>, <em>upper quartile</em> and <em>maximum</em>.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">statistic</th>
+<th align="left">function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">minimum</td>
+<td align="left"><code>=QUARTILE(D2:D5, 0)</code> or <code>=MIN(D2:D5)</code></td>
+</tr>
+<tr class="even">
+<td align="left">lower quartile</td>
+<td align="left"><code>=QUARTILE(D2:D5, 1)</code></td>
+</tr>
+<tr class="odd">
+<td align="left">median</td>
+<td align="left"><code>=QUARTILE(D2:D5, 2)</code> or <code>=MEDIAN(D2:D5)</code></td>
+</tr>
+<tr class="even">
+<td align="left">upper quatile</td>
+<td align="left"><code>=QUARTILE(D2:D5, 3)</code></td>
+</tr>
+<tr class="odd">
+<td align="left">maximum</td>
+<td align="left"><code>=QUARTILE(D2:D5, 4)</code> or <code>=MAX(D2:D5)</code></td>
+</tr>
+</tbody>
+</table>
+<p>It is important to remember whe using the <code>QUARTILE()</code> that the second argument (the bit after the comma) starts at <code>0</code>!</p>
 
 </div>
 </div>
