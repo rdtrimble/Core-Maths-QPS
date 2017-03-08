@@ -22,6 +22,18 @@ Key Skills:
 - s11 Be able to use and interpret statistical diagrams appropriate to a variety of types of data.
 
 
+### The language of data
+
+Data comes in many different forms. Broadly speaking the largest divide is between *Numerical* data and *Categorical* data. 
+
+*Numerical* data is a number, it will usually arise from some sort of measurement. Examples include, height, weight, distance, number of teeth etc. We further divide numerical data into two categories *continuous* and *discrete*. 
+
+*Continuous* numerical data is such that there could always be another value between two others e.g. height. If we measured two people's height as 189cm they are unlikely to both actually have the same height, the data has been recorded as 189cm but if we were able to measure more precisely one person might turn out to be 189.1cm while the other might be 188.8cm. With continuous data the picture we use is that of a measuring stick, we can always imagine a more precise answer.
+
+*Discrete* numerical data is where only specific values are allowed, this usually comes from counting. For example, counting sales of a CD, we can sell 3, 4 or 5 CDs but we cannot sell 7.5 of them. We can have 20 people in a class but not 20.7.
+
+*Categorical* data is where subjects are grouped or classified. Common examples include Gender, ethnicity, income. Hair colour and Eye colour can't be measured on a scale or with a ruler, we need to make qualitative judgements about which category someone belongs in in order to collect such categorical data.
+
 ## Statistical diagrams and measures
 
 Key Skills:

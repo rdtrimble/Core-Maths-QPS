@@ -46,6 +46,14 @@ Key Skills:
 
 - b1 Know the vocabulary associated with bivariate data.
 
+### Relationships between variables
+
+Real life data often comes in pairs. Scratch that, it often comes in lists! When we gather data about a group of people, say, we will gain a whole list of information about each individual. Bivariate data analysis (literally two variables) is the first step on a long road of statistical techniques that enables you to seek out and find the relationships between that long list of variables.
+
+Lucky for you we wil only be looking at data that comes in pairs!
+
+
+
 ## Spearman's Rank Correlation
 
 Key Skills:
