@@ -50,9 +50,60 @@ Key Skills:
 
 Real life data often comes in pairs. Scratch that, it often comes in lists! When we gather data about a group of people, say, we will gain a whole list of information about each individual. Bivariate data analysis (literally two variables) is the first step on a long road of statistical techniques that enables you to seek out and find the relationships between that long list of variables.
 
-Lucky for you we wil only be looking at data that comes in pairs!
+Lucky for you we will only be looking at data that comes in pairs!
+
+For example even though in the country data below you have access to many different variables at this level you will only analyse a pair of variables suc as the relationship between GDP per capita and population or life expectancy and birth rate.
 
 
+```
+## Installing package into '/home/travis/R/Library'
+## (as 'lib' is unspecified)
+## Installing package into '/home/travis/R/Library'
+## (as 'lib' is unspecified)
+```
+
+```
+## Warning: unable to access index for repository http://owi.usgs.gov/R/src/contrib:
+##   cannot open URL 'http://owi.usgs.gov/R/src/contrib/PACKAGES'
+```
+
+```
+## also installing the dependencies 'rJava', 'xlsxjars'
+```
+
+```
+## Loading required package: rJava
+```
+
+```
+## Loading required package: methods
+```
+
+```
+## Loading required package: xlsxjars
+```
+
+
+
+Table: (\#tab:country-data)Country Data.
+
+                       mpg   cyl    disp    hp   drat      wt    qsec   vs   am   gear
+-------------------  -----  ----  ------  ----  -----  ------  ------  ---  ---  -----
+Mazda RX4             21.0     6   160.0   110   3.90   2.620   16.46    0    1      4
+Mazda RX4 Wag         21.0     6   160.0   110   3.90   2.875   17.02    0    1      4
+Datsun 710            22.8     4   108.0    93   3.85   2.320   18.61    1    1      4
+Hornet 4 Drive        21.4     6   258.0   110   3.08   3.215   19.44    1    0      3
+Hornet Sportabout     18.7     8   360.0   175   3.15   3.440   17.02    0    0      3
+Valiant               18.1     6   225.0   105   2.76   3.460   20.22    1    0      3
+Duster 360            14.3     8   360.0   245   3.21   3.570   15.84    0    0      3
+Merc 240D             24.4     4   146.7    62   3.69   3.190   20.00    1    0      4
+Merc 230              22.8     4   140.8    95   3.92   3.150   22.90    1    0      4
+Merc 280              19.2     6   167.6   123   3.92   3.440   18.30    1    0      4
+Merc 280C             17.8     6   167.6   123   3.92   3.440   18.90    1    0      4
+Merc 450SE            16.4     8   275.8   180   3.07   4.070   17.40    0    0      3
+Merc 450SL            17.3     8   275.8   180   3.07   3.730   17.60    0    0      3
+Merc 450SLC           15.2     8   275.8   180   3.07   3.780   18.00    0    0      3
+Cadillac Fleetwood    10.4     8   472.0   205   2.93   5.250   17.98    0    0      3
 
 ## Spearman's Rank Correlation
 
