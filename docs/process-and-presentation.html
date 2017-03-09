@@ -218,8 +218,6 @@
 <p>Real life data often comes in pairs. Scratch that, it often comes in lists! When we gather data about a group of people, say, we will gain a whole list of information about each individual. Bivariate data analysis (literally two variables) is the first step on a long road of statistical techniques that enables you to seek out and find the relationships between that long list of variables.</p>
 <p>Lucky for you we will only be looking at data that comes in pairs!</p>
 <p>For example even though in the country data below you have access to many different variables at this level you will only analyse a pair of variables suc as the relationship between GDP per capita and population or life expectancy and birth rate.</p>
-<pre><code>## Installing package into &#39;/home/travis/R/Library&#39;
-## (as &#39;lib&#39; is unspecified)</code></pre>
 <pre><code>## Loading required package: rJava</code></pre>
 <pre><code>## Loading required package: methods</code></pre>
 <pre><code>## Loading required package: xlsxjars</code></pre>
@@ -227,214 +225,198 @@
 <caption><span id="tab:country-data">Table 9.1: </span>Country Data.</caption>
 <thead>
 <tr class="header">
-<th align="left"></th>
-<th align="right">mpg</th>
-<th align="right">cyl</th>
-<th align="right">disp</th>
-<th align="right">hp</th>
-<th align="right">drat</th>
-<th align="right">wt</th>
-<th align="right">qsec</th>
-<th align="right">vs</th>
-<th align="right">am</th>
-<th align="right">gear</th>
+<th align="left">Country</th>
+<th align="left">Sub.region</th>
+<th align="right">population</th>
+<th align="right">population.ranking</th>
+<th align="right">life.expectancy</th>
+<th align="right">life.expectancy.at.birth.ranking</th>
+<th align="right">birth.rate.per.1000</th>
+<th align="right">birth.rate.ranking</th>
+<th align="right">GDP.per.capita….</th>
+<th align="right">GDP.per.capita.ranking</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Mazda RX4</td>
-<td align="right">21.0</td>
+<td align="left">Algeria</td>
+<td align="left">Africa (Saharan)</td>
+<td align="right">38813722</td>
+<td align="right">33</td>
+<td align="right">76.39</td>
+<td align="right">79</td>
+<td align="right">23.99</td>
+<td align="right">63</td>
+<td align="right">7500</td>
+<td align="right">137</td>
+</tr>
+<tr class="even">
+<td align="left">Egypt</td>
+<td align="left">Africa (Saharan)</td>
+<td align="right">86895099</td>
+<td align="right">15</td>
+<td align="right">73.45</td>
+<td align="right">121</td>
+<td align="right">23.35</td>
+<td align="right">68</td>
+<td align="right">6600</td>
+<td align="right">144</td>
+</tr>
+<tr class="odd">
+<td align="left">Libya</td>
+<td align="left">Africa (Saharan)</td>
+<td align="right">6244174</td>
+<td align="right">107</td>
+<td align="right">76.04</td>
+<td align="right">85</td>
+<td align="right">18.40</td>
+<td align="right">104</td>
+<td align="right">11300</td>
+<td align="right">109</td>
+</tr>
+<tr class="even">
+<td align="left">Morocco</td>
+<td align="left">Africa (Saharan)</td>
+<td align="right">32987206</td>
+<td align="right">38</td>
+<td align="right">76.51</td>
+<td align="right">77</td>
+<td align="right">18.47</td>
+<td align="right">100</td>
+<td align="right">5500</td>
+<td align="right">155</td>
+</tr>
+<tr class="odd">
+<td align="left">Tunisia</td>
+<td align="left">Africa (Saharan)</td>
+<td align="right">10937521</td>
+<td align="right">78</td>
+<td align="right">75.68</td>
+<td align="right">91</td>
+<td align="right">16.90</td>
+<td align="right">112</td>
+<td align="right">9900</td>
+<td align="right">118</td>
+</tr>
+<tr class="even">
+<td align="left">Angola</td>
+<td align="left">Africa (Sub-Saharan)</td>
+<td align="right">19088106</td>
+<td align="right">58</td>
+<td align="right">55.29</td>
+<td align="right">204</td>
+<td align="right">38.97</td>
+<td align="right">9</td>
+<td align="right">6300</td>
+<td align="right">147</td>
+</tr>
+<tr class="odd">
+<td align="left">Benin</td>
+<td align="left">Africa (Sub-Saharan)</td>
+<td align="right">10160556</td>
+<td align="right">87</td>
+<td align="right">61.07</td>
+<td align="right">190</td>
+<td align="right">36.51</td>
+<td align="right">20</td>
+<td align="right">1600</td>
+<td align="right">202</td>
+</tr>
+<tr class="even">
+<td align="left">Botswana</td>
+<td align="left">Africa (Sub-Saharan)</td>
+<td align="right">2155784</td>
+<td align="right">144</td>
+<td align="right">54.06</td>
+<td align="right">209</td>
+<td align="right">21.34</td>
+<td align="right">77</td>
+<td align="right">16400</td>
+<td align="right">82</td>
+</tr>
+<tr class="odd">
+<td align="left">Burkina Faso</td>
+<td align="left">Africa (Sub-Saharan)</td>
+<td align="right">18365123</td>
+<td align="right">59</td>
+<td align="right">54.78</td>
+<td align="right">206</td>
+<td align="right">42.42</td>
+<td align="right">5</td>
+<td align="right">1500</td>
+<td align="right">203</td>
+</tr>
+<tr class="even">
+<td align="left">Burundi</td>
+<td align="left">Africa (Sub-Saharan)</td>
+<td align="right">10395931</td>
+<td align="right">85</td>
+<td align="right">59.55</td>
+<td align="right">195</td>
+<td align="right">42.33</td>
 <td align="right">6</td>
-<td align="right">160.0</td>
-<td align="right">110</td>
-<td align="right">3.90</td>
-<td align="right">2.620</td>
-<td align="right">16.46</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">Mazda RX4 Wag</td>
-<td align="right">21.0</td>
-<td align="right">6</td>
-<td align="right">160.0</td>
-<td align="right">110</td>
-<td align="right">3.90</td>
-<td align="right">2.875</td>
-<td align="right">17.02</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">4</td>
+<td align="right">600</td>
+<td align="right">225</td>
 </tr>
 <tr class="odd">
-<td align="left">Datsun 710</td>
-<td align="right">22.8</td>
-<td align="right">4</td>
-<td align="right">108.0</td>
-<td align="right">93</td>
-<td align="right">3.85</td>
-<td align="right">2.320</td>
-<td align="right">18.61</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">4</td>
+<td align="left">Cabo Verde</td>
+<td align="left">Africa (Sub-Saharan)</td>
+<td align="right">538535</td>
+<td align="right">172</td>
+<td align="right">71.57</td>
+<td align="right">144</td>
+<td align="right">20.72</td>
+<td align="right">82</td>
+<td align="right">4400</td>
+<td align="right">167</td>
 </tr>
 <tr class="even">
-<td align="left">Hornet 4 Drive</td>
-<td align="right">21.4</td>
-<td align="right">6</td>
-<td align="right">258.0</td>
-<td align="right">110</td>
-<td align="right">3.08</td>
-<td align="right">3.215</td>
-<td align="right">19.44</td>
-<td align="right">1</td>
-<td align="right">0</td>
-<td align="right">3</td>
+<td align="left">Cameroon</td>
+<td align="left">Africa (Sub-Saharan)</td>
+<td align="right">23130708</td>
+<td align="right">53</td>
+<td align="right">57.35</td>
+<td align="right">201</td>
+<td align="right">36.58</td>
+<td align="right">19</td>
+<td align="right">2400</td>
+<td align="right">188</td>
 </tr>
 <tr class="odd">
-<td align="left">Hornet Sportabout</td>
-<td align="right">18.7</td>
-<td align="right">8</td>
-<td align="right">360.0</td>
-<td align="right">175</td>
-<td align="right">3.15</td>
-<td align="right">3.440</td>
-<td align="right">17.02</td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td align="right">3</td>
+<td align="left">Central African Republic</td>
+<td align="left">Africa (Sub-Saharan)</td>
+<td align="right">5277959</td>
+<td align="right">117</td>
+<td align="right">51.35</td>
+<td align="right">217</td>
+<td align="right">35.45</td>
+<td align="right">23</td>
+<td align="right">700</td>
+<td align="right">223</td>
 </tr>
 <tr class="even">
-<td align="left">Valiant</td>
-<td align="right">18.1</td>
-<td align="right">6</td>
-<td align="right">225.0</td>
-<td align="right">105</td>
-<td align="right">2.76</td>
-<td align="right">3.460</td>
-<td align="right">20.22</td>
-<td align="right">1</td>
-<td align="right">0</td>
-<td align="right">3</td>
+<td align="left">Chad</td>
+<td align="left">Africa (Sub-Saharan)</td>
+<td align="right">11412107</td>
+<td align="right">76</td>
+<td align="right">49.44</td>
+<td align="right">222</td>
+<td align="right">37.29</td>
+<td align="right">16</td>
+<td align="right">2500</td>
+<td align="right">184</td>
 </tr>
 <tr class="odd">
-<td align="left">Duster 360</td>
-<td align="right">14.3</td>
-<td align="right">8</td>
-<td align="right">360.0</td>
-<td align="right">245</td>
-<td align="right">3.21</td>
-<td align="right">3.570</td>
-<td align="right">15.84</td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td align="right">3</td>
-</tr>
-<tr class="even">
-<td align="left">Merc 240D</td>
-<td align="right">24.4</td>
-<td align="right">4</td>
-<td align="right">146.7</td>
-<td align="right">62</td>
-<td align="right">3.69</td>
-<td align="right">3.190</td>
-<td align="right">20.00</td>
-<td align="right">1</td>
-<td align="right">0</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">Merc 230</td>
-<td align="right">22.8</td>
-<td align="right">4</td>
-<td align="right">140.8</td>
-<td align="right">95</td>
-<td align="right">3.92</td>
-<td align="right">3.150</td>
-<td align="right">22.90</td>
-<td align="right">1</td>
-<td align="right">0</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">Merc 280</td>
-<td align="right">19.2</td>
-<td align="right">6</td>
-<td align="right">167.6</td>
-<td align="right">123</td>
-<td align="right">3.92</td>
-<td align="right">3.440</td>
-<td align="right">18.30</td>
-<td align="right">1</td>
-<td align="right">0</td>
-<td align="right">4</td>
-</tr>
-<tr class="odd">
-<td align="left">Merc 280C</td>
-<td align="right">17.8</td>
-<td align="right">6</td>
-<td align="right">167.6</td>
-<td align="right">123</td>
-<td align="right">3.92</td>
-<td align="right">3.440</td>
-<td align="right">18.90</td>
-<td align="right">1</td>
-<td align="right">0</td>
-<td align="right">4</td>
-</tr>
-<tr class="even">
-<td align="left">Merc 450SE</td>
-<td align="right">16.4</td>
-<td align="right">8</td>
-<td align="right">275.8</td>
-<td align="right">180</td>
-<td align="right">3.07</td>
-<td align="right">4.070</td>
-<td align="right">17.40</td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td align="right">3</td>
-</tr>
-<tr class="odd">
-<td align="left">Merc 450SL</td>
-<td align="right">17.3</td>
-<td align="right">8</td>
-<td align="right">275.8</td>
-<td align="right">180</td>
-<td align="right">3.07</td>
-<td align="right">3.730</td>
-<td align="right">17.60</td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td align="right">3</td>
-</tr>
-<tr class="even">
-<td align="left">Merc 450SLC</td>
-<td align="right">15.2</td>
-<td align="right">8</td>
-<td align="right">275.8</td>
-<td align="right">180</td>
-<td align="right">3.07</td>
-<td align="right">3.780</td>
-<td align="right">18.00</td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td align="right">3</td>
-</tr>
-<tr class="odd">
-<td align="left">Cadillac Fleetwood</td>
-<td align="right">10.4</td>
-<td align="right">8</td>
-<td align="right">472.0</td>
-<td align="right">205</td>
-<td align="right">2.93</td>
-<td align="right">5.250</td>
-<td align="right">17.98</td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td align="right">3</td>
+<td align="left">Comoros</td>
+<td align="left">Africa (Sub-Saharan)</td>
+<td align="right">766865</td>
+<td align="right">163</td>
+<td align="right">63.48</td>
+<td align="right">183</td>
+<td align="right">29.05</td>
+<td align="right">44</td>
+<td align="right">1300</td>
+<td align="right">209</td>
 </tr>
 </tbody>
 </table>

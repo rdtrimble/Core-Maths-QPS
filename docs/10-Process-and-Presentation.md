@@ -56,11 +56,6 @@ For example even though in the country data below you have access to many differ
 
 
 ```
-## Installing package into '/home/travis/R/Library'
-## (as 'lib' is unspecified)
-```
-
-```
 ## Loading required package: rJava
 ```
 
@@ -76,23 +71,23 @@ For example even though in the country data below you have access to many differ
 
 Table: (\#tab:country-data)Country Data.
 
-                       mpg   cyl    disp    hp   drat      wt    qsec   vs   am   gear
--------------------  -----  ----  ------  ----  -----  ------  ------  ---  ---  -----
-Mazda RX4             21.0     6   160.0   110   3.90   2.620   16.46    0    1      4
-Mazda RX4 Wag         21.0     6   160.0   110   3.90   2.875   17.02    0    1      4
-Datsun 710            22.8     4   108.0    93   3.85   2.320   18.61    1    1      4
-Hornet 4 Drive        21.4     6   258.0   110   3.08   3.215   19.44    1    0      3
-Hornet Sportabout     18.7     8   360.0   175   3.15   3.440   17.02    0    0      3
-Valiant               18.1     6   225.0   105   2.76   3.460   20.22    1    0      3
-Duster 360            14.3     8   360.0   245   3.21   3.570   15.84    0    0      3
-Merc 240D             24.4     4   146.7    62   3.69   3.190   20.00    1    0      4
-Merc 230              22.8     4   140.8    95   3.92   3.150   22.90    1    0      4
-Merc 280              19.2     6   167.6   123   3.92   3.440   18.30    1    0      4
-Merc 280C             17.8     6   167.6   123   3.92   3.440   18.90    1    0      4
-Merc 450SE            16.4     8   275.8   180   3.07   4.070   17.40    0    0      3
-Merc 450SL            17.3     8   275.8   180   3.07   3.730   17.60    0    0      3
-Merc 450SLC           15.2     8   275.8   180   3.07   3.780   18.00    0    0      3
-Cadillac Fleetwood    10.4     8   472.0   205   2.93   5.250   17.98    0    0      3
+Country                    Sub.region              population   population.ranking   life.expectancy   life.expectancy.at.birth.ranking   birth.rate.per.1000   birth.rate.ranking   GDP.per.capita....   GDP.per.capita.ranking
+-------------------------  ---------------------  -----------  -------------------  ----------------  ---------------------------------  --------------------  -------------------  -------------------  -----------------------
+Algeria                    Africa (Saharan)          38813722                   33             76.39                                 79                 23.99                   63                 7500                      137
+Egypt                      Africa (Saharan)          86895099                   15             73.45                                121                 23.35                   68                 6600                      144
+Libya                      Africa (Saharan)           6244174                  107             76.04                                 85                 18.40                  104                11300                      109
+Morocco                    Africa (Saharan)          32987206                   38             76.51                                 77                 18.47                  100                 5500                      155
+Tunisia                    Africa (Saharan)          10937521                   78             75.68                                 91                 16.90                  112                 9900                      118
+Angola                     Africa (Sub-Saharan)      19088106                   58             55.29                                204                 38.97                    9                 6300                      147
+Benin                      Africa (Sub-Saharan)      10160556                   87             61.07                                190                 36.51                   20                 1600                      202
+Botswana                   Africa (Sub-Saharan)       2155784                  144             54.06                                209                 21.34                   77                16400                       82
+Burkina Faso               Africa (Sub-Saharan)      18365123                   59             54.78                                206                 42.42                    5                 1500                      203
+Burundi                    Africa (Sub-Saharan)      10395931                   85             59.55                                195                 42.33                    6                  600                      225
+Cabo Verde                 Africa (Sub-Saharan)        538535                  172             71.57                                144                 20.72                   82                 4400                      167
+Cameroon                   Africa (Sub-Saharan)      23130708                   53             57.35                                201                 36.58                   19                 2400                      188
+Central African Republic   Africa (Sub-Saharan)       5277959                  117             51.35                                217                 35.45                   23                  700                      223
+Chad                       Africa (Sub-Saharan)      11412107                   76             49.44                                222                 37.29                   16                 2500                      184
+Comoros                    Africa (Sub-Saharan)        766865                  163             63.48                                183                 29.05                   44                 1300                      209
 
 ## Spearman's Rank Correlation
 
