@@ -55,20 +55,6 @@ Lucky for you we will only be looking at data that comes in pairs!
 For example even though in the country data below you have access to many different variables at this level you will only analyse a pair of variables suc as the relationship between GDP per capita and population or life expectancy and birth rate.
 
 
-```
-## Loading required package: rJava
-```
-
-```
-## Loading required package: methods
-```
-
-```
-## Loading required package: xlsxjars
-```
-
-
-
 Table: (\#tab:country-data)Country Data.
 
 Country                    Sub.region              population   population.ranking   life.expectancy   life.expectancy.at.birth.ranking   birth.rate.per.1000   birth.rate.ranking   GDP.per.capita....   GDP.per.capita.ranking
