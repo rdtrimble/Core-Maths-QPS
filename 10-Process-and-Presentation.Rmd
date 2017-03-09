@@ -61,7 +61,7 @@ install_load("xlsx")
 countryData = read.xlsx("./data/09-06-country-data.xlsx", sheetName="merged with region")
 
 knitr::kable(
-  head(mtcars[, 1:10], 15), booktabs = TRUE,
+  head(countryData[, 1:10], 15), booktabs = TRUE,
   caption = 'Country Data.'
 )
 
