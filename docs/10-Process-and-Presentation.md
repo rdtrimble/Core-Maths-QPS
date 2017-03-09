@@ -58,17 +58,6 @@ For example even though in the country data below you have access to many differ
 ```
 ## Installing package into '/home/travis/R/Library'
 ## (as 'lib' is unspecified)
-## Installing package into '/home/travis/R/Library'
-## (as 'lib' is unspecified)
-```
-
-```
-## Warning: unable to access index for repository http://owi.usgs.gov/R/src/contrib:
-##   cannot open URL 'http://owi.usgs.gov/R/src/contrib/PACKAGES'
-```
-
-```
-## also installing the dependencies 'rJava', 'xlsxjars'
 ```
 
 ```
