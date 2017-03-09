@@ -56,7 +56,7 @@ For example even though in the country data below you have access to many differ
 
 ```{r country-data, echo = FALSE}
 library(xlsx)
-countryData = read.xlsx(".\data\09-06-country-data.xlsx", sheetName="merged with region")
+countryData = read.xlsx("./data/09-06-country-data.xlsx", sheetName="merged with region")
 
 knitr::kable(
   head(mtcars[, 1:10], 15), booktabs = TRUE,
