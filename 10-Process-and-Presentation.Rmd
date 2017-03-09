@@ -57,7 +57,7 @@ For example even though in the country data below you have access to many differ
 ```{r country-data, echo = FALSE}
 install.packages("install.load")
 library(install.load)
-install_load(xlsx)
+install_load("xlsx")
 countryData = read.xlsx("./data/09-06-country-data.xlsx", sheetName="merged with region")
 
 knitr::kable(
