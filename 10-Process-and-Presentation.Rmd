@@ -55,7 +55,7 @@ Lucky for you we will only be looking at data that comes in pairs!
 For example even though in the country data below you have access to many different variables at this level you will only analyse a pair of variables suc as the relationship between GDP per capita and population or life expectancy and birth rate.
 
 ```{r country-data, echo = FALSE}
-install(install.load)
+install.packages("install.load")
 library(install.load)
 install_load(xlsx)
 countryData = read.xlsx("./data/09-06-country-data.xlsx", sheetName="merged with region")
