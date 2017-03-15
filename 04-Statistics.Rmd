@@ -67,7 +67,7 @@ The formula
 $$\bar{x} = \frac{\Sum{fx}}{\Sum{f}}$$
 also works when the *weights* we use aren't actually *frequencies* as long as they are proportional to the frequencies.
 
-For example if in a company workers earn £20,000 per annum and managers earn £30,000 per annum the average wage depends upon the ratio of workers to managers rather than the exact number of workers or managers. Naively summing and dividing by 2 won't work $\frac{£20000+£30000}{2}=£25000$ isn't the mean wage if there are 40 workers and 10 managers! In that case we need to *weight* the values by the appropriate factors and divide by the total weight i.e. $\frac{40\times£20000+10\times£30000}{50}=£22000$. Actually we don't have to use the exact numbers of workers and managers, using 4 for workers and 1 for managers works just as well i.e. $\frac{4\times£20000+1\times£30000}{5}=£22000$.
+For example if in a company workers earn £20,000 per annum and managers earn £30,000 per annum the average wage depends upon the ratio of workers to managers rather than the exact number of workers or managers. Naively summing and dividing by 2 won't work $\frac{£20000+£30000}{2}=£25000$ isn't the mean wage if there are 40 workers and 10 managers! In that case we need to *weight* the values by the appropriate factors and divide by the total weight i.e. $\frac{40 \times £20000+10 \times £30000}{50}=£22000$. Actually we don't have to use the exact numbers of workers and managers, using 4 for workers and 1 for managers works just as well i.e. $\frac{4 \times £20000+1 \times £30000}{5}=£22000$.
 
 ## The Normal Distribution
 
