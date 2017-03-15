@@ -4,22 +4,22 @@
 
 Key Skills:
 
-- s1 Be able to decide what data need to be collected in order to answer a question requiring statistical evidence.
-- s2 Be able to use a suitable method for collecting data, taking ethical considerations into account, and judge whether data are of sufficient quality.
-- s3 Be able to process and present the data and so provide an answer to the original question.
-- s4 Be able to interpret the answer to the question and decide whether it is realistic.
+- s1  Be able to decide what data need to be collected in order to answer a question requiring statistical evidence.
+- s2  Be able to use a suitable method for collecting data, taking ethical considerations into account, and judge whether data are of sufficient quality.
+- s3  Be able to process and present the data and so provide an answer to the original question.
+- s4  Be able to interpret the answer to the question and decide whether it is realistic.
 
 ## Data
 
 Key Skills:
 
-- s5 Understand and use the language describing types of data.
-- s6 Be able to recognise values in primary or secondary data which are unlikely to be accurate.
-- s7 Be able to read information from a table and to construct a table to present information.
-- s8 Understand the meaning of the terms sample and population.
-- s9 Be able to interpret sample data in terms of possible properties of the parent population.
-- s10 Understand about the variability of data and be able to describe the main features of a distribution.
-- s11 Be able to use and interpret statistical diagrams appropriate to a variety of types of data.
+- s5  Understand and use the language describing types of data.
+- s6  Be able to recognise values in primary or secondary data which are unlikely to be accurate.
+- s7  Be able to read information from a table and to construct a table to present information.
+- s8  Understand the meaning of the terms sample and population.
+- s9  Be able to interpret sample data in terms of possible properties of the parent population.
+- s10  Understand about the variability of data and be able to describe the main features of a distribution.
+- s11  Be able to use and interpret statistical diagrams appropriate to a variety of types of data.
 
 
 ### The language of data
@@ -38,12 +38,12 @@ Data comes in many different forms. Broadly speaking the largest divide is betwe
 
 Key Skills:
 
-- s12 Be able to identify when a statistical diagram is misleading and explain how it could be improved.
-- s13 Be able to identify skewness from a histogram, frequency chart or box and whisker plot.
-- s14 Be able to interpret a scatter diagram for bivariate data, draw a line of best fit by eye when it is appropriate to do so and understand that extrapolation might not be justified.
-- s15 Be able to select and calculate appropriate measures of central tendency and to interpret them.
-- s16 Be able to use appropriate measures of spread and to interpret them.
-- s17 Be able to calculate a weighted mean and recognise when it is appropriate to do so.
+- s12  Be able to identify when a statistical diagram is misleading and explain how it could be improved.
+- s13  Be able to identify skewness from a histogram, frequency chart or box and whisker plot.
+- s14  Be able to interpret a scatter diagram for bivariate data, draw a line of best fit by eye when it is appropriate to do so and understand that extrapolation might not be justified.
+- s15  Be able to select and calculate appropriate measures of central tendency and to interpret them.
+- s16  Be able to use appropriate measures of spread and to interpret them.
+- s17  Be able to calculate a weighted mean and recognise when it is appropriate to do so.
 
 ### Weighted Means
 
@@ -57,9 +57,9 @@ knitr::kable(
   head(groupedFrequency[, 1:3], 7), booktabs = TRUE,
   caption = 'Grouped Frequency Data.'
 )
-```
+``` 
 
-Here the individual x values do not have equal weight, there are only five "5"s compared to ten "8"s, the "5"s have half the weight of the "8"s. You are probab;y familiar with the formula for the mean in this context:
+Here the individual x values do not have equal weight, there are only five "5"s compared to ten "8"s, the "5"s have half the weight of the "8"s. You are probably familiar with the formula for the mean in this context:
 
 $$\bar{x} = \frac{\Sum{fx}}{\Sum{f}} = \frac{272}{39} = 6.974$$
 
@@ -67,13 +67,13 @@ The formula
 $$\bar{x} = \frac{\Sum{fx}}{\Sum{f}}$$
 also works when the *weights* we use aren't actually *frequencies* as long as they are proportional to the frequencies.
 
-For example if in a company workers earn £20,000 per annum and managers earn £30,000 per annum the average wage depends upon the ratio of workers to managers rather than the exact number of workers or managers. Naively summing and dividing by 2 won't work $\frac{£20000+£30000}{2}=£15000$ isn't the mean wage if there are 40 workers and 10 managers! In that case we need to *weight* the values by the appropriate factors and divide by the total weight i.e. $\frac{40\times£20000+10\times£30000}{50}=£22000$. Actually we don't have to use the exact numbers of workers and managers, using 4 for workers and 1 for managers works just as well i.e. $\frac{4\times£20000+1\times£30000}{5}=£22000$.
+For example if in a company workers earn Â£20,000 per annum and managers earn Â£30,000 per annum the average wage depends upon the ratio of workers to managers rather than the exact number of workers or managers. Naively summing and dividing by 2 won't work $\frac{Â£20000+Â£30000}{2}=Â£25000$ isn't the mean wage if there are 40 workers and 10 managers! In that case we need to *weight* the values by the appropriate factors and divide by the total weight i.e. $\frac{40\timesÂ£20000+10\timesÂ£30000}{50}=Â£22000$. Actually we don't have to use the exact numbers of workers and managers, using 4 for workers and 1 for managers works just as well i.e. $\frac{4\timesÂ£20000+1\timesÂ£30000}{5}=Â£22000$.
 
 ## The Normal Distribution
 
 Key Skills:
 
-- s18 Know that the Normal distribution is a model which can be used for real data and recognise a Normal curve.
-- s19 Know that, for a Normal distribution, values more than three standard deviations from the mean are very unusual; know that approximately 95% of the data lie within two standard deviations of the mean and that 68% (just over two thirds) lie within one standard deviation of the mean.
-- s20 Be able to use mean and standard deviation to calculate a z-score and use z-scores for comparison or quality control.
-- s21 Be able to interpret a Normal probability plot from statistical software.
+- s18  Know that the Normal distribution is a model which can be used for real data and recognise a Normal curve.
+- s19  Know that, for a Normal distribution, values more than three standard deviations from the mean are very unusual; know that approximately 95% of the data lie within two standard deviations of the mean and that 68% (just over two thirds) lie within one standard deviation of the mean.
+- s20  Be able to use mean and standard deviation to calculate a z-score and use z-scores for comparison or quality control.
+- s21  Be able to interpret a Normal probability plot from statistical software.
