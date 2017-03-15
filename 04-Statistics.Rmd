@@ -45,6 +45,29 @@ Key Skills:
 - s16 Be able to use appropriate measures of spread and to interpret them.
 - s17 Be able to calculate a weighted mean and recognise when it is appropriate to do so.
 
+### Weighted Means
+
+A *weighted* mean is used whenever different values have different significance or *weight*. You have probably experienced this before in calculating a mean froma grouped frequency table.
+
+```{r grouped-frequency, echo = FALSE}
+library(xlsx, quietly = TRUE)
+groupedFrequency = read.xlsx("./data/04-01-grouped-frequency.xlsx", sheetName="Sheet1")
+
+knitr::kable(
+  head(groupedFrequency[, 1:3], 7), booktabs = TRUE,
+  caption = 'Grouped Frequency Data.'
+)
+```
+
+Here the individual x values do not have equal weight, there are only five "5"s compared to ten "8"s, the "5"s have half the weight of the "8"s. You are probab;y familiar with the formula for the mean in this context:
+
+$$\bar{x} = \frac{\Sum{fx}}{\Sum{f}} = \frac{272}{39} = 6.974$$
+
+The formula 
+$$\bar{x} = \frac{\Sum{fx}}{\Sum{f}}$$
+also works when the *weights* we use aren't actually *frequencies* as long as they are proportional to the frequencies.
+
+For example if in a company workers earn £20,000 per annum and managers earn £30,000 per annum the average wage depends upon the ratio of workers to managers rather than the exact number of workers or managers.
 
 ## The Normal Distribution
 
