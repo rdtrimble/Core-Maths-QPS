@@ -54,8 +54,8 @@ library(xlsx, quietly = TRUE)
 groupedFrequency = read.xlsx("./data/04-01-grouped-frequency.xlsx", sheetName="Sheet1")
 
 knitr::kable(
-  head(groupedFrequency[, 1:3], 7), booktabs = TRUE,
-  caption = 'Grouped Frequency Data.'
+  head(groupedFrequency[, 1:3], 7), booktabs = TRUE,
+  caption = 'Grouped Frequency Data.'
 )
 ```
 
