@@ -61,7 +61,7 @@ The smallest power is $5$ so convert the first number into $10^{5}$.
 $3\times 10^{7}=300\times 10^{5}$ (we do this by "paying out" two powers of ten from $10^{7}$)
 Now we are able to directly add the $300$ and $4$ giving us $304\times 10^{5}$. We must now convert back to standard form, $3.04\times 10^{7}$.
 So in summary: $3\times 10^{7} + 4\times 10^{5}=300\times 10^{5}+ 4\times 10^{5}=304\times 10^{5}=3.04\times 10^{7}$
-
+ 
 ## Exponentials
 
 Key Skills:
