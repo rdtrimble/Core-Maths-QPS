@@ -26,7 +26,7 @@ Notice in this example that the $5$ lands in the 6th decimal place and the $7$ t
 Incredibly large numbers can also be handled by using *positive* powers of ten. For example a scientist measuting the distance to the (Andromeda Galaxy)[https://en.wikipedia.org/wiki/Andromeda_Galaxy] might do so in *Astronomical Units* (AU). One AU is the average distance between the Earth and the Sun ($1.496\times10^{11}m$). On this measurement the Andromeda Galaxy is $1.625\times10^{11}$ AU away from us. This figure is incredibly large equal to $16250000000 AU$, in other words $16250000000$ times farther away from us than the sun is.
 
 ### Manipulating numbers in Standard Form
-
+ 
 
 
 ## Exponentials
