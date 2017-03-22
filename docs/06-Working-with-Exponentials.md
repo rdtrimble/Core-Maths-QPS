@@ -7,6 +7,28 @@ Key Skills:
 - i1 Be able to interpret large or small numbers in standard form, including the use of a spreadsheet or calculator.
 - i2 Be able to calculate with numbers in standard form.
 
+### All Numbers Great and Small
+
+Standard form is a notation that has been developed to cope with the fact that we need to deal with both very large and very small numbers.
+
+Take the scientist as an example, she may be involved in measuring the length of a micro organism or bacterium. Usually scientists will use a unit that is appropriate to the context, a typical bacterium might be 180 *microns* long. But we need to be able to relate these units to familiar measurement systems such as meters. 
+
+In fact 1 *micron* is equal to 1 *micrometer* ($1 \mu m = 0.000001 m$). Other tiny units suitable for the atomic scale are *nanometers* ($1 nm = 0.000000001m$). All of these zeroes lead to increased potential for mistakes so we have adopted a notation called **standard form** to track the *place value* of the numbers we deal with.
+
+Take $1 \mu m$ for example, in standard form this is $1\times10^{-6}m$ and on your calculator this might be displayed as $1\text{EXP}-06$  or in a spreadsheet as $1\text{E}-06$. What it means is to calculate:
+$$1\times10^{-6}=\frac{1}{10^6}=\frac{1}{1000000}=0.000001$$
+
+This gives us a very powerful and compact notation for very small numbers and also avoids errors by being clear about which decimal place the number is in.
+
+e.g. $5.7 \mu m = 5.7\times10^{-6}=0.0000057$
+Notice in this example that the $5$ lands in the 6th decimal place and the $7$ that was after the decimal point in $\mu m$ still comes just after the $5$.
+
+Incredibly large numbers can also be handled by using *positive* powers of ten. For example a scientist measuting the distance to the (Andromeda Galaxy)[https://en.wikipedia.org/wiki/Andromeda_Galaxy] might do so in *Astronomical Units* (AU). One AU is the average distance between the Earth and the Sun ($1.496\times10^{11}m$). On this measurement the Andromeda Galaxy is $1.625\times10^{11}$ AU away from us. This figure is incredibly large equal to $16250000000 AU$, in other words $16250000000$ times farther away from us than the sun is.
+
+### Manipulating numbers in Standard Form
+ 
+
+
 ## Exponentials
 
 Key Skills:
