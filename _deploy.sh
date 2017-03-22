@@ -19,6 +19,6 @@ git checkout master   # Fix the detached head state
 git stash apply
 git status
 git add .
-git commit -m 'update docs' || true
+git commit -m 'update docs [ci skip]' || true
 git status
 git push https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git master
