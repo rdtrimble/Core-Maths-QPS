@@ -214,11 +214,23 @@
 <div id="models-for-exponential-growth-and-decay" class="section level3">
 <h3><span class="header-section-number">5.2.1</span> Models for Exponential Growth and Decay</h3>
 <p>There are many situations in nature and life for which an exponential model is appropriate. We use an exponential model if for a fixed time period the value increases or decreases by the same percentage.</p>
-<p>e.g. Biological growth &gt; When a modelling cell division scientists sometimes use the following model <span class="math display">\[N=N_0 2^{ft}\]</span> where <span class="math inline">\(N\)</span> is the number of cells present at time <span class="math inline">\(t\)</span> hours. <span class="math inline">\(f\)</span> is the number of times per hour, on average, that the cells divide (different for different species) and <span class="math inline">\(N_0\)</span> is the initial population of cells.<br />
-&gt; What are the consequences of this model?<br />
-&gt; In ideal conditions <em>E. Coli</em> cells will divide every 20 minutes. This would mean 3 times per hour, i.e. <span class="math inline">\(f=3\)</span>. If we start with just one <em>E.Coli</em> cell then <span class="math inline">\(N_0=1\)</span>.<br />
-&gt; After 1 hour, when <span class="math inline">\(t=1\)</span> the model predicts <span class="math inline">\(N = 1\times 2^{3\times 1}= 2^3 =8\)</span>. Why is this? After 20 minutes the initial single cell divides into two daughter cells, twenty minutes later each daughter cell divides again into two daughter cells giving <span class="math inline">\(2\times 2=4\)</span> cells. Again after a further twenty minutes each cell has split into two and we have <span class="math inline">\(4\times 2 = 8\)</span> cells.<br />
-&gt; The advantage of the model is that we can calculate the number of cells at any given time directly without having to multiply by two again and again.</p>
+<p>e.g. Biological growth</p>
+<blockquote>
+<p>When a modelling cell division scientists sometimes use the following model <span class="math display">\[N=N_0 2^{ft}\]</span> where <span class="math inline">\(N\)</span> is the number of cells present at time <span class="math inline">\(t\)</span> hours. <span class="math inline">\(f\)</span> is the number of times per hour, on average, that the cells divide (different for different species) and <span class="math inline">\(N_0\)</span> is the initial population of cells.<br />
+What are the consequences of this model?<br />
+In ideal conditions <em>E. Coli</em> cells will divide every 20 minutes. This would mean 3 times per hour, i.e. <span class="math inline">\(f=3\)</span>. If we start with just one <em>E.Coli</em> cell then <span class="math inline">\(N_0=1\)</span>.<br />
+After 1 hour, when <span class="math inline">\(t=1\)</span> the model predicts <span class="math inline">\(N = 1\times 2^{3\times 1}= 2^3 =8\)</span>. Why is this? After 20 minutes the initial single cell divides into two daughter cells, twenty minutes later each daughter cell divides again into two daughter cells giving <span class="math inline">\(2\times 2=4\)</span> cells. Again after a further twenty minutes each cell has split into two and we have <span class="math inline">\(4\times 2 = 8\)</span> cells.<br />
+The advantage of the model is that we can calculate the number of cells at any given time directly without having to multiply by two again and again.</p>
+</blockquote>
+<p><img src="06-Working-with-Exponentials_files/figure-html/e-coli-two-hours-1.png" width="672" /></p>
+<blockquote>
+<p>The growth over the first two hours may be impressive but over the first five hours the population of bacteria will rise to an astounding <span class="math inline">\(32798\)</span>!</p>
+</blockquote>
+<p><img src="06-Working-with-Exponentials_files/figure-html/e-coli-five-hours-1.png" width="672" /></p>
+<blockquote>
+<p>Notice how the impressive growth of the first two hours now looks almost constant compared to the <em>exponential</em> growth of the first five hours. This is a characteristic of all <em>exponential</em> growth, at any stage the increase coming next in absolute terms will be bigger than any of the previous increases.<br />
+Incidentally you can see from the graph why food may only he held at a warm temperature for a maximum of 2 hours and still be deemed safe to eat<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>.</p>
+</blockquote>
 </div>
 </div>
 <div id="logarithmic-scales" class="section level2">
@@ -229,6 +241,12 @@
 </ul>
 
 </div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="1">
+<li id="fn1"><p><span class="citation">Agency (<a href="#ref-Agency2016">2016</a>)</span>, 57<a href="working-with-exponentials.html#fnref1">↩</a></p></li>
+</ol>
 </div>
             </section>
 

@@ -75,11 +75,22 @@ Key Skills:
 There are many situations in nature and life for which an exponential model is appropriate. We use an exponential model if for a fixed time period the value increases or decreases by the same percentage.
 
 e.g. Biological growth
+
 > When a modelling cell division  scientists sometimes use the following model $$N=N_0 2^{ft}$$ where $N$ is the number of cells present at time $t$ hours. $f$ is the number of times per hour, on average, that the cells divide (different for different species) and $N_0$ is the initial population of cells.  
 > What are the consequences of this model?  
 > In ideal conditions *E. Coli* cells will divide every 20 minutes. This would mean 3 times per hour, i.e. $f=3$. If we start with just one *E.Coli* cell then $N_0=1$.  
 > After 1 hour, when $t=1$ the model predicts $N = 1\times 2^{3\times 1}= 2^3 =8$. Why is this? After 20 minutes the initial single cell divides into two daughter cells, twenty minutes later each daughter cell divides again into two daughter cells giving $2\times 2=4$ cells. Again after a further twenty minutes each cell has split into two and we have $4\times 2 = 8$ cells.  
 > The advantage of the model is that we can calculate the number of cells at any given time directly without having to multiply by two again and again.
+
+<img src="06-Working-with-Exponentials_files/figure-html/e-coli-two-hours-1.png" width="672" />
+
+> The growth over the first two hours may be impressive but over the first five hours the population of bacteria will rise to an astounding $32798$!
+
+<img src="06-Working-with-Exponentials_files/figure-html/e-coli-five-hours-1.png" width="672" />
+
+> Notice how the impressive growth of the first two hours now looks almost constant compared to the *exponential* growth of the first five hours. This is a characteristic of all *exponential* growth, at any stage the increase coming next in absolute terms will be bigger than any of the previous increases.  
+> Incidentally you can see from the graph why food may only he held at a warm temperature for a maximum of 2 hours and still be deemed safe to eat^[@Agency2016, 57]. 
+
 
 ## Logarithmic scales
 
