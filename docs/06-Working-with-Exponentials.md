@@ -89,7 +89,7 @@ e.g. Biological growth
 <img src="06-Working-with-Exponentials_files/figure-html/e-coli-five-hours-1.png" width="672" />
 
 > Notice how the impressive growth of the first two hours now looks almost constant compared to the *exponential* growth of the first five hours. This is a characteristic of all *exponential* growth, at any stage the increase coming next in absolute terms will be bigger than any of the previous increases.  
-> Incidentally you can see from the graph why food may only he held at a warm temperature for a maximum of 2 hours and still be deemed safe to eat^[@Agency2016, 57]. 
+> Incidentally you can see from the graph why food may only be held at a warm temperature for a maximum of 2 hours and still be deemed safe to eat^[@FSA2016, paragraph 57]. 
 
 
 ## Logarithmic scales
