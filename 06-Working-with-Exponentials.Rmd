@@ -84,7 +84,7 @@ e.g. Biological growth
 
 ```{r e-coli-two-hours, echo=FALSE}
 N = function(x) 2^(3*x)
-plot.function(N, from = 0, to = 2, n = 6, type="p", pch=16, yaxt="n", xlab="Time (t) in hours", ylab="N")
+plot.function(N, from = 0, to = 2, n = 7, type="p", pch=16, yaxt="n", xlab="Time (t) in hours", ylab="N")
 plot.function(N, from = 0, to = 2, n = 15, type="l", add=TRUE)
 axis(2,las=2)
 ```
@@ -93,13 +93,13 @@ axis(2,las=2)
 
 ```{r e-coli-five-hours, echo=FALSE}
 N = function(x) 2^(3*x)
-plot.function(N, from = 0, to = 5, n = 15, type="p", pch=16, yaxt="n", xlab="Time (t) in hours", ylab="N")
+plot.function(N, from = 0, to = 5, n = 16, type="p", pch=16, yaxt="n", xlab="Time (t) in hours", ylab="N")
 plot.function(N, from = 0, to = 5, n = 45, type="l", add=TRUE)
 axis(2,las=2)
 ```
 
 > Notice how the impressive growth of the first two hours now looks almost constant compared to the *exponential* growth of the first five hours. This is a characteristic of all *exponential* growth, at any stage the increase coming next in absolute terms will be bigger than any of the previous increases.  
-> Incidentally you can see from the graph why food may only he held at a warm temperature for a maximum of 2 hours and still be deemed safe to eat^[@Agency2016, 57]. 
+> Incidentally you can see from the graph why food may only be held at a warm temperature for a maximum of 2 hours and still be deemed safe to eat^[@FSA2016, paragraph 57]. 
 
 
 ## Logarithmic scales
