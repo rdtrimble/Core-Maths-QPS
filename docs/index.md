@@ -1,7 +1,7 @@
 --- 
 title: "Introduction to Quantitative Problem Solving"
 author: "Richard Trimble"
-date: "2017-03-23"
+date: "2017-03-24"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
