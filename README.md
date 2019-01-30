@@ -1,6 +1,7 @@
-#Introduction to Quantitative Problem Solving
+# Introduction to Quantitative Problem Solving
 
-A sourcebook and guide
+![](https://travis-ci.com/rdtrimble/Core-Maths-QPS.svg?branch=master)
 
-This is the absolute minimum you need to start a [bookdown](https://bookdown.org/home/about.html) book. You can find the
-preview of this book at http://seankross.com/bookdown-start/
+A guide to the content of OCR/MEI Quantitative Problem solving. No exercises yet!
+
+This is  a [bookdown](https://bookdown.org/home/about.html) book.
