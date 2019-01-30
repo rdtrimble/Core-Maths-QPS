@@ -8,7 +8,7 @@ bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: rdtrimble/Core-Maths-QPS
-url: 'http\://tbc.com/Core-Maths-QPS/'
+url: 'https\://rdtrimble.github.io/Core-Maths-QPS/'
 description: "Introduction to Quantitative Problem Solving gives the student everything they need to learn, understand and apply quantitative methods in OCR/MEI's Level 3 Certificate 'Introduction to Quantitative Problem Solving'. Both papers 'Introduction to Quantitative Reasoning' and 'Statisitcal Problem Solving' are covered."
 ---
 
