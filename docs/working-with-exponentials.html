@@ -5,27 +5,27 @@
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Introduction to Quantitative Problem Solving</title>
-  <meta name="description" content="Introduction to Quantitative Problem Solving gives the student everything they need to learn, understand and apply quantitative methods in OCR/MEI’s Level 3 Certificate ‘Introduction to Quantitative Problem Solving’. Both papers ‘Introduction to Quantitative Reasoning’ and ‘Statisitcal Problem Solving’ are covered.">
-  <meta name="generator" content="bookdown 0.3.14 and GitBook 2.6.7">
+  <title>Chapter 5 Working with Exponentials | Introduction to Quantitative Problem Solving</title>
+  <meta name="description" content="Chapter 5 Working with Exponentials | Introduction to Quantitative Problem Solving gives the student everything they need to learn, understand and apply quantitative methods in OCR/MEI’s Level 3 Certificate ‘Introduction to Quantitative Problem Solving’. Both papers ‘Introduction to Quantitative Reasoning’ and ‘Statisitcal Problem Solving’ are covered.">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
 
-  <meta property="og:title" content="Introduction to Quantitative Problem Solving" />
+  <meta property="og:title" content="Chapter 5 Working with Exponentials | Introduction to Quantitative Problem Solving" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="http://tbc.com/Core-Maths-QPS/" />
   
-  <meta property="og:description" content="Introduction to Quantitative Problem Solving gives the student everything they need to learn, understand and apply quantitative methods in OCR/MEI’s Level 3 Certificate ‘Introduction to Quantitative Problem Solving’. Both papers ‘Introduction to Quantitative Reasoning’ and ‘Statisitcal Problem Solving’ are covered." />
+  <meta property="og:description" content="Chapter 5 Working with Exponentials | Introduction to Quantitative Problem Solving gives the student everything they need to learn, understand and apply quantitative methods in OCR/MEI’s Level 3 Certificate ‘Introduction to Quantitative Problem Solving’. Both papers ‘Introduction to Quantitative Reasoning’ and ‘Statisitcal Problem Solving’ are covered." />
   <meta name="github-repo" content="rdtrimble/Core-Maths-QPS" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Introduction to Quantitative Problem Solving" />
+  <meta name="twitter:title" content="Chapter 5 Working with Exponentials | Introduction to Quantitative Problem Solving" />
   
-  <meta name="twitter:description" content="Introduction to Quantitative Problem Solving gives the student everything they need to learn, understand and apply quantitative methods in OCR/MEI’s Level 3 Certificate ‘Introduction to Quantitative Problem Solving’. Both papers ‘Introduction to Quantitative Reasoning’ and ‘Statisitcal Problem Solving’ are covered." />
+  <meta name="twitter:description" content="Chapter 5 Working with Exponentials | Introduction to Quantitative Problem Solving gives the student everything they need to learn, understand and apply quantitative methods in OCR/MEI’s Level 3 Certificate ‘Introduction to Quantitative Problem Solving’. Both papers ‘Introduction to Quantitative Reasoning’ and ‘Statisitcal Problem Solving’ are covered." />
   
 
 <meta name="author" content="Richard Trimble">
 
 
-<meta name="date" content="2017-03-24">
+<meta name="date" content="2019-01-30">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -36,6 +36,7 @@
 <link rel="next" href="working-with-graphs-and-gradients.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
@@ -182,25 +183,42 @@
 <p>Standard form is a notation that has been developed to cope with the fact that we need to deal with both very large and very small numbers.</p>
 <p>Take the scientist as an example, she may be involved in measuring the length of a micro organism or bacterium. Usually scientists will use a unit that is appropriate to the context, a typical bacterium might be 180 <em>microns</em> long. But we need to be able to relate these units to familiar measurement systems such as meters.</p>
 <p>In fact 1 <em>micron</em> is equal to 1 <em>micrometer</em> (<span class="math inline">\(1 \mu m = 0.000001 m\)</span>). Other tiny units suitable for the atomic scale are <em>nanometers</em> (<span class="math inline">\(1 nm = 0.000000001m\)</span>). All of these zeroes lead to increased potential for mistakes so we have adopted a notation called <strong>standard form</strong> to track the <em>place value</em> of the numbers we deal with.</p>
-<p>Take <span class="math inline">\(1 \mu m\)</span> for example, in standard form this is <span class="math inline">\(1\times 10^{-6}m\)</span> and on your calculator this might be displayed as <span class="math inline">\(1\text{EXP}-06\)</span> or in a spreadsheet as <span class="math inline">\(1\text{E}-06\)</span>. What it means is to calculate: <span class="math display">\[1\times 10^{-6}=\frac{1}{10^6}=\frac{1}{1000000}=0.000001\]</span></p>
+<p>Take <span class="math inline">\(1 \mu m\)</span> for example, in standard form this is <span class="math inline">\(1\times 10^{-6}m\)</span> and on your calculator this might be displayed as <span class="math inline">\(1\text{EXP}-06\)</span> or in a spreadsheet as <span class="math inline">\(1\text{E}-06\)</span>. What it means is to calculate:
+<span class="math display">\[1\times 10^{-6}=\frac{1}{10^6}=\frac{1}{1000000}=0.000001\]</span></p>
 <p>This gives us a very powerful and compact notation for very small numbers and also avoids errors by being clear about which decimal place the number is in.</p>
 <p><span class="math inline">\(a\times 10^{n}\)</span> is a number in standard form if <span class="math inline">\(1\leq a \lt 10\)</span>. So whilst <span class="math inline">\(25\times 10^{3}\)</span> makes sense as the number <span class="math inline">\(25000\)</span> it is not in <em>standard form</em> because <span class="math inline">\(25 \geq 10\)</span>, one should write <span class="math inline">\(2.5\times 10^{4}\)</span> instead. Notice how a factor of <span class="math inline">\(10\)</span> has been removed from the <span class="math inline">\(25\)</span> and increased <span class="math inline">\(10^{3}\)</span> by one power to <span class="math inline">\(10^{4}\)</span>.</p>
-<p>e.g. <span class="math inline">\(5.7 \mu m = 5.7\times 10^{-6}=0.0000057\)</span> Notice in this example that the <span class="math inline">\(5\)</span> lands in the 6th decimal place and the <span class="math inline">\(7\)</span> that was after the decimal point in <span class="math inline">\(\mu m\)</span> still comes just after the <span class="math inline">\(5\)</span>.</p>
+<p>e.g. <span class="math inline">\(5.7 \mu m = 5.7\times 10^{-6}=0.0000057\)</span>
+Notice in this example that the <span class="math inline">\(5\)</span> lands in the 6th decimal place and the <span class="math inline">\(7\)</span> that was after the decimal point in <span class="math inline">\(\mu m\)</span> still comes just after the <span class="math inline">\(5\)</span>.</p>
 <p>Incredibly large numbers can also be handled by using <em>positive</em> powers of ten. For example a scientist measuring the distance to the <a href="https://en.wikipedia.org/wiki/Andromeda_Galaxy">Andromeda Galaxy</a> might do so in <em>Astronomical Units</em> (AU). One AU is the average distance between the Earth and the Sun (<span class="math inline">\(1.496\times 10^{11}m\)</span>). On this measurement the Andromeda Galaxy is <span class="math inline">\(1.625\times 10^{11}\)</span> AU away from us. This figure is incredibly large equal to <span class="math inline">\(16250000000 AU\)</span>, in other words <span class="math inline">\(16250000000\)</span> times farther away from us than the sun is.</p>
 </div>
 <div id="comparing-numbers-in-standard-form" class="section level3">
 <h3><span class="header-section-number">5.1.2</span> Comparing Numbers in Standard Form</h3>
 <p>It is really easy to compare two numbers in standard form provided you remember to compare the <strong>power</strong> first!</p>
-<p>e.g. <span class="math inline">\(1.2\times 10^{17} \gt 8.45\times 10^{15}\)</span> Looking at the powers first we can see that the first number is much greater! It is actually easier to compare numbers in this form than in their non-standard form represntation <span class="math inline">\(120000000000000000\gt 8450000000000000\)</span> is less obvious!</p>
+<p>e.g. <span class="math inline">\(1.2\times 10^{17} \gt 8.45\times 10^{15}\)</span>
+Looking at the powers first we can see that the first number is much greater! It is actually easier to compare numbers in this form than in their non-standard form represntation <span class="math inline">\(120000000000000000\gt 8450000000000000\)</span> is less obvious!</p>
 </div>
 <div id="manipulating-numbers-in-standard-form" class="section level3">
 <h3><span class="header-section-number">5.1.3</span> Manipulating Numbers in Standard Form</h3>
-<p>To multiply two numbers in standard form simply multiply the two number parts and add the powers of ten together: <span class="math display">\[(a\times 10^{n})\times(b\times 10^{m})=(a\times b)\times 10^{n+m}\]</span> The only possible correction is that the product <span class="math inline">\(a\times b\)</span> might be bigger than <span class="math inline">\(10\)</span> and so you may need to adjust the powers afterwards.</p>
-<p>e.g. <span class="math inline">\((3\times 10^{6})\times(5\times 10^{4})\)</span> We multiply <span class="math inline">\(3\)</span> and <span class="math inline">\(5\)</span> and add the powers <span class="math inline">\(6\)</span> and <span class="math inline">\(4\)</span>. <span class="math inline">\((3\times 5)\times10^{6+4}=15\times 10^{10}=1.5\times 10^{11}\)</span> In the final step because <span class="math inline">\(15\geq10\)</span> we “move” a ppwer of ten out of the <span class="math inline">\(15\)</span> and into the power.</p>
-<p>To divide two numbers in standard form simply divide the two number parts and subtract the powers of ten: <span class="math display">\[(a\times 10^{n})\div(b\times 10^{m})=(a\div b)\times 10^{n-m}\]</span> Again you may need a correction in that the quotient <span class="math inline">\(a\div b\)</span> might be less than <span class="math inline">\(1\)</span> and so you may need to adjust the powers afterwards.</p>
-<p>e.g. <span class="math inline">\((1.2\times 10^{5})\div (4\times 10^{8})\)</span> We divide <span class="math inline">\(1.2\)</span> by <span class="math inline">\(4\)</span> and subtract the powers <span class="math inline">\(5\)</span> minus <span class="math inline">\(8\)</span>. <span class="math inline">\((1.2\div 4)\times 10^{5-8}= 0.3\times 10^{-3}=3\times 10^{-4}\)</span> In the final step because <span class="math inline">\(0.3\lt 1\)</span> we need to “borrow” a power of ten from <span class="math inline">\(10^{-3}\)</span> to multiply up to <span class="math inline">\(3\)</span>. This borrowing <em>reduces</em> the power from <span class="math inline">\(10^{-3}\)</span> to <span class="math inline">\(10^{-4}\)</span>.</p>
+<p>To multiply two numbers in standard form simply multiply the two number parts and add the powers of ten together:
+<span class="math display">\[(a\times 10^{n})\times(b\times 10^{m})=(a\times b)\times 10^{n+m}\]</span>
+The only possible correction is that the product <span class="math inline">\(a\times b\)</span> might be bigger than <span class="math inline">\(10\)</span> and so you may need to adjust the powers afterwards.</p>
+<p>e.g. <span class="math inline">\((3\times 10^{6})\times(5\times 10^{4})\)</span>
+We multiply <span class="math inline">\(3\)</span> and <span class="math inline">\(5\)</span> and add the powers <span class="math inline">\(6\)</span> and <span class="math inline">\(4\)</span>.
+<span class="math inline">\((3\times 5)\times10^{6+4}=15\times 10^{10}=1.5\times 10^{11}\)</span>
+In the final step because <span class="math inline">\(15\geq10\)</span> we “move” a power of ten out of the <span class="math inline">\(15\)</span> and into the power.</p>
+<p>To divide two numbers in standard form simply divide the two number parts and subtract the powers of ten:
+<span class="math display">\[(a\times 10^{n})\div(b\times 10^{m})=(a\div b)\times 10^{n-m}\]</span>
+Again you may need a correction in that the quotient <span class="math inline">\(a\div b\)</span> might be less than <span class="math inline">\(1\)</span> and so you may need to adjust the powers afterwards.</p>
+<p>e.g. <span class="math inline">\((1.2\times 10^{5})\div (4\times 10^{8})\)</span>
+We divide <span class="math inline">\(1.2\)</span> by <span class="math inline">\(4\)</span> and subtract the powers <span class="math inline">\(5\)</span> minus <span class="math inline">\(8\)</span>.
+<span class="math inline">\((1.2\div 4)\times 10^{5-8}= 0.3\times 10^{-3}=3\times 10^{-4}\)</span>
+In the final step because <span class="math inline">\(0.3\lt 1\)</span> we need to “borrow” a power of ten from <span class="math inline">\(10^{-3}\)</span> to multiply up to <span class="math inline">\(3\)</span>. This borrowing <em>reduces</em> the power from <span class="math inline">\(10^{-3}\)</span> to <span class="math inline">\(10^{-4}\)</span>.</p>
 <p>Adding or Subtracting numbers in standard form is trickier and is not really what standard form was designed for. But if you need to do it the key is to change both numbers to a common power of ten before either adding or subtracting.</p>
-<p>e.g. <span class="math inline">\(3\times 10^{7} + 4\times 10^{5}\)</span> The smallest power is <span class="math inline">\(5\)</span> so convert the first number into <span class="math inline">\(10^{5}\)</span>. <span class="math inline">\(3\times 10^{7}=300\times 10^{5}\)</span> (we do this by “paying out” two powers of ten from <span class="math inline">\(10^{7}\)</span>) Now we are able to directly add the <span class="math inline">\(300\)</span> and <span class="math inline">\(4\)</span> giving us <span class="math inline">\(304\times 10^{5}\)</span>. We must now convert back to standard form, <span class="math inline">\(3.04\times 10^{7}\)</span>. So in summary: <span class="math inline">\(3\times 10^{7} + 4\times 10^{5}=300\times 10^{5}+ 4\times 10^{5}=304\times 10^{5}=3.04\times 10^{7}\)</span></p>
+<p>e.g. <span class="math inline">\(3\times 10^{7} + 4\times 10^{5}\)</span>
+The smallest power is <span class="math inline">\(5\)</span> so convert the first number into <span class="math inline">\(10^{5}\)</span>.
+<span class="math inline">\(3\times 10^{7}=300\times 10^{5}\)</span> (we do this by “paying out” two powers of ten from <span class="math inline">\(10^{7}\)</span>)
+Now we are able to directly add the <span class="math inline">\(300\)</span> and <span class="math inline">\(4\)</span> giving us <span class="math inline">\(304\times 10^{5}\)</span>. We must now convert back to standard form, <span class="math inline">\(3.04\times 10^{7}\)</span>.
+So in summary: <span class="math inline">\(3\times 10^{7} + 4\times 10^{5}=300\times 10^{5}+ 4\times 10^{5}=304\times 10^{5}=3.04\times 10^{7}\)</span></p>
 </div>
 </div>
 <div id="exponentials" class="section level2">
@@ -229,7 +247,7 @@ The advantage of the model is that we can calculate the number of cells at any g
 <p><img src="06-Working-with-Exponentials_files/figure-html/e-coli-five-hours-1.png" width="672" /></p>
 <blockquote>
 <p>Notice how the impressive growth of the first two hours now looks almost constant compared to the <em>exponential</em> growth of the first five hours. This is a characteristic of all <em>exponential</em> growth, at any stage the increase coming next in absolute terms will be bigger than any of the previous increases.<br />
-Incidentally you can see from the graph why food may only be held at a warm temperature for a maximum of 2 hours and still be deemed safe to eat<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>.</p>
+Incidentally you can see from the graph why food may only be held at a warm temperature for a maximum of 2 hours and still be deemed safe to eat<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>.</p>
 </blockquote>
 </div>
 </div>
@@ -245,7 +263,7 @@ Incidentally you can see from the graph why food may only be held at a warm temp
 <div class="footnotes">
 <hr />
 <ol start="1">
-<li id="fn1"><p><span class="citation">Food Standards Agency (<a href="#ref-FSA2016">2016</a>)</span>, paragraph 57<a href="working-with-exponentials.html#fnref1">↩</a></p></li>
+<li id="fn1"><p><span class="citation">Food Standards Agency (<a href="#ref-FSA2016">2016</a>)</span>, paragraph 57<a href="working-with-exponentials.html#fnref1" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
             </section>
@@ -265,17 +283,18 @@ Incidentally you can see from the graph why food may only be held at a warm temp
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
 <script>
-require(["gitbook"], function(gitbook) {
+gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
 "github": false,
 "facebook": true,
 "twitter": true,
 "google": false,
+"linkedin": false,
 "weibo": false,
-"instapper": false,
+"instapaper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
 "theme": "white",
@@ -283,6 +302,10 @@ gitbook.start({
 "size": 2
 },
 "edit": {
+"link": null,
+"text": null
+},
+"history": {
 "link": null,
 "text": null
 },
@@ -299,9 +322,11 @@ gitbook.start({
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    if (location.protocol !== "file:" && /^https?:/.test(script.src))
-      script.src  = script.src.replace(/^https?:/, '');
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>

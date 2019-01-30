@@ -5,27 +5,27 @@
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Introduction to Quantitative Problem Solving</title>
-  <meta name="description" content="Introduction to Quantitative Problem Solving gives the student everything they need to learn, understand and apply quantitative methods in OCR/MEI’s Level 3 Certificate ‘Introduction to Quantitative Problem Solving’. Both papers ‘Introduction to Quantitative Reasoning’ and ‘Statisitcal Problem Solving’ are covered.">
-  <meta name="generator" content="bookdown 0.3.14 and GitBook 2.6.7">
+  <title>Chapter 3 Statistics | Introduction to Quantitative Problem Solving</title>
+  <meta name="description" content="Chapter 3 Statistics | Introduction to Quantitative Problem Solving gives the student everything they need to learn, understand and apply quantitative methods in OCR/MEI’s Level 3 Certificate ‘Introduction to Quantitative Problem Solving’. Both papers ‘Introduction to Quantitative Reasoning’ and ‘Statisitcal Problem Solving’ are covered.">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
 
-  <meta property="og:title" content="Introduction to Quantitative Problem Solving" />
+  <meta property="og:title" content="Chapter 3 Statistics | Introduction to Quantitative Problem Solving" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="http://tbc.com/Core-Maths-QPS/" />
   
-  <meta property="og:description" content="Introduction to Quantitative Problem Solving gives the student everything they need to learn, understand and apply quantitative methods in OCR/MEI’s Level 3 Certificate ‘Introduction to Quantitative Problem Solving’. Both papers ‘Introduction to Quantitative Reasoning’ and ‘Statisitcal Problem Solving’ are covered." />
+  <meta property="og:description" content="Chapter 3 Statistics | Introduction to Quantitative Problem Solving gives the student everything they need to learn, understand and apply quantitative methods in OCR/MEI’s Level 3 Certificate ‘Introduction to Quantitative Problem Solving’. Both papers ‘Introduction to Quantitative Reasoning’ and ‘Statisitcal Problem Solving’ are covered." />
   <meta name="github-repo" content="rdtrimble/Core-Maths-QPS" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Introduction to Quantitative Problem Solving" />
+  <meta name="twitter:title" content="Chapter 3 Statistics | Introduction to Quantitative Problem Solving" />
   
-  <meta name="twitter:description" content="Introduction to Quantitative Problem Solving gives the student everything they need to learn, understand and apply quantitative methods in OCR/MEI’s Level 3 Certificate ‘Introduction to Quantitative Problem Solving’. Both papers ‘Introduction to Quantitative Reasoning’ and ‘Statisitcal Problem Solving’ are covered." />
+  <meta name="twitter:description" content="Chapter 3 Statistics | Introduction to Quantitative Problem Solving gives the student everything they need to learn, understand and apply quantitative methods in OCR/MEI’s Level 3 Certificate ‘Introduction to Quantitative Problem Solving’. Both papers ‘Introduction to Quantitative Reasoning’ and ‘Statisitcal Problem Solving’ are covered." />
   
 
 <meta name="author" content="Richard Trimble">
 
 
-<meta name="date" content="2017-03-24">
+<meta name="date" content="2019-01-30">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -36,6 +36,7 @@
 <link rel="next" href="finance.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
@@ -259,7 +260,9 @@
 </table>
 <p>Here the individual x values do not have equal weight, there are only five “5”s compared to ten “8”s, the “5”s have half the weight of the “8”s. You are probably familiar with the formula for the mean in this context:</p>
 <p><span class="math display">\[\bar{x} = \frac{\sum{fx}}{\sum{f}} = \frac{272}{39} = 6.974\]</span></p>
-<p>The formula <span class="math display">\[\bar{x} = \frac{\sum{fx}}{\sum{f}}\]</span> also works when the <em>weights</em> we use aren’t actually <em>frequencies</em> as long as they are proportional to the frequencies.</p>
+<p>The formula
+<span class="math display">\[\bar{x} = \frac{\sum{fx}}{\sum{f}}\]</span>
+also works when the <em>weights</em> we use aren’t actually <em>frequencies</em> as long as they are proportional to the frequencies.</p>
 <p>For example if in a company workers earn £20,000 per annum and managers earn £30,000 per annum the average wage depends upon the ratio of workers to managers rather than the exact number of workers or managers. Naively summing and dividing by 2 won’t work <span class="math inline">\(\frac{£20000+£30000}{2}=£25000\)</span> isn’t the mean wage if there are 40 workers and 10 managers! In that case we need to <em>weight</em> the values by the appropriate factors and divide by the total weight i.e. <span class="math inline">\(\frac{40 \times £20000+10 \times £30000}{50}=£22000\)</span>. Actually we don’t have to use the exact numbers of workers and managers, using 4 for workers and 1 for managers works just as well i.e. <span class="math inline">\(\frac{4 \times £20000+1 \times £30000}{5}=£22000\)</span>.</p>
 </div>
 </div>
@@ -292,17 +295,18 @@
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
 <script>
-require(["gitbook"], function(gitbook) {
+gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
 "github": false,
 "facebook": true,
 "twitter": true,
 "google": false,
+"linkedin": false,
 "weibo": false,
-"instapper": false,
+"instapaper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
 "theme": "white",
@@ -310,6 +314,10 @@ gitbook.start({
 "size": 2
 },
 "edit": {
+"link": null,
+"text": null
+},
+"history": {
 "link": null,
 "text": null
 },
@@ -326,9 +334,11 @@ gitbook.start({
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    if (location.protocol !== "file:" && /^https?:/.test(script.src))
-      script.src  = script.src.replace(/^https?:/, '');
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>

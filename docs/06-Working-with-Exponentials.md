@@ -43,7 +43,7 @@ The only possible correction is that the product $a\times b$ might be bigger tha
 e.g. $(3\times 10^{6})\times(5\times 10^{4})$
 We multiply $3$ and $5$ and add the powers $6$ and $4$.
 $(3\times 5)\times10^{6+4}=15\times 10^{10}=1.5\times 10^{11}$
-In the final step because $15\geq10$ we "move" a ppwer of ten out of the $15$ and into the power.
+In the final step because $15\geq10$ we "move" a power of ten out of the $15$ and into the power.
 
 To divide two numbers in standard form simply divide the two number parts and subtract the powers of ten:
 $$(a\times 10^{n})\div(b\times 10^{m})=(a\div b)\times 10^{n-m}$$
